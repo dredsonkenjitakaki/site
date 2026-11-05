@@ -8,10 +8,13 @@ export const SITE = {
   role: 'Microcirurgia e cirurgia da mão',
 }
 
-export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : 'http://localhost:3000')
-).replace(/\/$/, '')
+/* Domínio de produção. Usado como fallback para que canonical, og:image,
+   sitemap, robots e JSON-LD nunca apontem para localhost nem para a URL
+   temporária *.pages.dev. Pode ser sobrescrito por NEXT_PUBLIC_SITE_URL
+   (variável de ambiente do Cloudflare Pages ou .env.local). */
+export const PROD_URL = 'https://dredsonkenjitakaki.com.br'
+
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || PROD_URL).replace(/\/$/, '')
 
 export const OFFICE = {
   street: 'Av. Bandeirantes, 500, 6º andar, sala 608',
