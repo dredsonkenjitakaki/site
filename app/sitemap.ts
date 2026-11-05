@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next'
 import { ARTICLES, SITE_URL } from '@/lib/content'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const fixed = ['', '/trajetoria', '/patologias', '/microcirurgia', '/orientacoes']
   return [
