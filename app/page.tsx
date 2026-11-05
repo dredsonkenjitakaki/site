@@ -54,7 +54,7 @@ export default function Home() {
             </div></div>
           </div>
           <div className="ph">
-            <Photo k="hero" alt="Dr. Edson Kenji Takaki operando com lupa cirúrgica" priority quality={90} sizes="(max-width: 960px) 100vw, 1200px" />
+            <Photo k="hero" alt="Dr. Edson Kenji Takaki operando sob o microscópio cirúrgico" priority quality={90} sizes="(max-width: 960px) 100vw, 1200px" />
           </div>
         </section>
 

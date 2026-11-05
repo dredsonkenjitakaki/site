@@ -340,7 +340,7 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
 /* ===== Hero em tela cheia: a foto é o fundo (sem painel azul) ===== */
 .hero{margin:0;border-radius:0;min-height:100svh;grid-template-columns:1fr 1fr;background:var(--cobalt-d)}
 .hero .ph{position:absolute;inset:0;margin:0;border-radius:0;min-height:0;order:0}
-.hero .ph img{object-position:28% 35%}
+.hero .ph img{object-position:28% 22%}
 .hero .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(23,73,174,.94) 0%,rgba(23,73,174,.84) 34%,rgba(23,73,174,.28) 62%,rgba(23,73,174,0) 78%)}
 .hero .in{grid-column:2;padding:130px clamp(24px,calc((100vw - 1200px)/2 + 24px),150px) 90px clamp(24px,3vw,48px)}
 @media(max-width:960px){
