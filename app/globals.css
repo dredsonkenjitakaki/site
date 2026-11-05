@@ -253,10 +253,10 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .hero .ph img,[data-par]{will-change:transform}
 
 
-/* ===== Forma: arredondamento de 2,5px em tudo (pedido do cliente); sombras difusas ===== */
+/* ===== Forma: arredondamento de 14px em tudo (pedido do cliente); sombras difusas ===== */
 :root{
   --gut:clamp(10px,1.2vw,20px);
-  --r:2.5px;--r-lg:2.5px;--r-xl:2.5px;
+  --r:14px;--r-lg:14px;--r-xl:14px;
   --shadow-s:0 1px 2px rgba(14,42,82,.05),0 10px 28px -14px rgba(14,42,82,.20);
   --shadow-m:0 2px 4px rgba(14,42,82,.04),0 28px 60px -28px rgba(14,42,82,.30);
 }
