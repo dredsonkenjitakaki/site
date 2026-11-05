@@ -1,0 +1,20 @@
+export const IMG = {
+  'hero': { src: '/img/hero.webp', w: 1608, h: 1068 },
+  'retrato': { src: '/img/retrato.webp', w: 1300, h: 1796 },
+  'atendimento': { src: '/img/atendimento.webp', w: 960, h: 997 },
+  'cirurgiao-microscopio': { src: '/img/cirurgiao-microscopio.webp', w: 720, h: 1085 },
+  'centro-cirurgico': { src: '/img/centro-cirurgico.webp', w: 1112, h: 720 },
+  'microscopio-visao': { src: '/img/microscopio-visao.webp', w: 1600, h: 1200 },
+  'microsutura': { src: '/img/microsutura.webp', w: 1600, h: 1200 },
+  'honrarias': { src: '/img/honrarias.webp', w: 1800, h: 1200 },
+  'consultorio': { src: '/img/consultorio.webp', w: 1800, h: 1350 },
+  'tunel-do-carpo': { src: '/img/tunel-do-carpo.webp', w: 1200, h: 800 },
+  'tunel-do-carpo-cirurgia': { src: '/img/tunel-do-carpo-cirurgia.webp', w: 1600, h: 1200 },
+  'dedo-em-gatilho': { src: '/img/dedo-em-gatilho.webp', w: 1200, h: 800 },
+  'quervain': { src: '/img/quervain.webp', w: 1200, h: 800 },
+  'tunel-cubital': { src: '/img/tunel-cubital.webp', w: 1200, h: 545 },
+  'dedo-em-martelo': { src: '/img/dedo-em-martelo.webp', w: 1000, h: 600 },
+  'logo-evangelico': { src: '/img/logo-evangelico.webp', w: 48, h: 48 },
+  'logo-unimed': { src: '/img/logo-unimed.webp', w: 48, h: 48 },
+} as const
+export type ImgKey = keyof typeof IMG

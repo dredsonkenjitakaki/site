@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="160 55 280 440" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+  <title>Dr. Edson Kenji Takaki</title>
+  <g stroke-width="38">
+    <path d="M254 135v130"/>
+    <path d="M304 105v140"/>
+    <path d="M358 135v130"/>
+    <path d="M201 225v110a99 99 0 0 0 198 0v-75"/>
+    <circle cx="300" cy="350" r="50" stroke-width="32"/>
+  </g>
+</svg>
