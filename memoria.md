@@ -7,6 +7,8 @@
 - 2026-11-05 · Humanizer aplicado aos textos: sem travessões, sem superlativos, sem "tem cura".
 
 ## Alterações realizadas
+- 2026-11-05 · Design suavizado a pedido do cliente ("muito quadrado"): painéis arredondados, menu e botões em pílula, retratos em arco, cartões com sombra difusa. Substitui a proposta anterior de cantos de 2px. Eyebrows mantidos.
+- 2026-11-05 · Artigos reescritos do zero (9 temas, com cisto sinovial) em `lib/articles.ts`. Documento de revisão para o Dr. gerado em `revisao/Revisao-textos-Dr-Takaki.docx` (script em `tools/`). Prazos de repouso, imobilização e retirada de pontos ficam genéricos no site até o Dr. informar os valores.
 - 2026-11-05 · Estrutura construída: Home, Patologias (8 artigos), Microcirurgia, Trajetória, Orientações, 404, sitemap, robots, JSON-LD (Physician, BreadcrumbList). Build passou (19 páginas).
 - 2026-11-05 · Imagens extraídas do .doc (18), tratadas e convertidas para WebP em `public/img`. As fotos 3 e 5 vinham com orientação EXIF; já corrigidas.
 
