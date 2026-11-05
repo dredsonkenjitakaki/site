@@ -13,7 +13,7 @@ Somente português (BR).
 
 ## Estrutura 🟡
 - `/` Home: hero, fatos, atendimento humanizado, a mão, patologias, microcirurgia, trajetória, orientações, consultório, contato.
-- `/patologias` e `/patologias/[slug]`: 8 artigos (túnel do carpo, dedo em gatilho, De Quervain, dor na palma, túnel cubital, dor nas mãos na gravidez, sindactilia, dedo em martelo). Uma URL por condição, para SEO.
+- `/patologias` e `/patologias/[slug]`: 9 artigos (túnel do carpo, dedo em gatilho, De Quervain, cisto sinovial, dor na palma, túnel cubital, dor nas mãos na gravidez, sindactilia, dedo em martelo). Uma URL por condição, para SEO.
 - `/microcirurgia`, `/trajetoria` (inclui imprensa e vídeos), `/orientacoes` (pré e pós-operatório).
 
 ## Contato ✅ (do documento do cliente)
