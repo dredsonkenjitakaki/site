@@ -183,7 +183,7 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .ft-l .ic{color:var(--aqua)}
 .ft-copy{margin-top:46px;padding-top:22px;border-top:1px solid rgba(255,255,255,.14);text-align:center;font-size:.76rem;letter-spacing:.05em}
 .ft-made{margin-top:8px;text-align:center;font-size:.76rem;letter-spacing:.05em}
-.ft-made a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.ft-made a{color:#fff;font-weight:600}
 .ft-made a:hover{color:var(--aqua)}
 
 /* páginas internas */
