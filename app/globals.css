@@ -362,3 +362,17 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
   .hero .in{padding:110px 14px 18px}
   .glass-in{padding:24px 22px}
 }
+
+/* Vidro sem moldura externa */
+.glass{padding:0;border:0;background:none;box-shadow:none;border-radius:var(--r)}
+.glass-in{box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 36px 80px -34px rgba(7,24,58,.6)}
+
+/* Celular: foto livre no topo, textos abaixo dela, sem caixa */
+@media(max-width:960px){
+  .hero{display:flex;flex-direction:column;min-height:0;background:var(--cobalt-d)}
+  .hero .ph{position:relative;inset:auto;order:-1;height:min(76svh,560px)}
+  .hero .ph::after{background:linear-gradient(0deg,var(--cobalt-d) 0,rgba(21,60,131,0) 34%),linear-gradient(180deg,rgba(21,60,131,.35),rgba(21,60,131,0) 14%)}
+  .hero .in{padding:6px var(--pad) 64px;justify-content:flex-start}
+  .glass{max-width:none}
+  .glass-in{padding:0;background:none;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;border-radius:0}
+}
