@@ -39,6 +39,7 @@ export default function Home() {
       <main id="conteudo">
         <section className="hero" data-first>
           <div className="in">
+            <div className="glass"><div className="glass-in">
             <div className="eyebrow">Microcirurgia · Cirurgia da mão · Plástica reconstrutora</div>
             <h1 className="serif">
               <span className="ln"><span>Cirurgia da mão</span></span>
@@ -50,6 +51,7 @@ export default function Home() {
               <Link className="btn btn-line" href="/trajetoria">Conhecer a trajetória <Arrow /></Link>
             </div>
             <div className="cred">{SITE.name} · {SITE.crm}</div>
+            </div></div>
           </div>
           <div className="ph">
             <Photo k="hero" alt="Dr. Edson Kenji Takaki operando com lupa cirúrgica" priority quality={90} sizes="(max-width: 960px) 100vw, 1200px" />
