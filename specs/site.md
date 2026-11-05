@@ -31,7 +31,7 @@ Pendente `[CONFIRMAR]`: UF e RQE; "35 anos de expertise" (o documento diz 35; o 
 Não usar: nome de paciente, dados pessoais e religiosos, superlativos.
 
 ## Stack ✅
-Next.js 15 (App Router) + React 19 + TypeScript, GSAP + ScrollTrigger, CSS global, next/font, next/image. Hospedagem: Vercel. Repositório: github.com/HROSHEY/DrTakaki.
+Next.js 15 (App Router) + React 19 + TypeScript, GSAP + ScrollTrigger, CSS global, next/font/local (fontes auto-hospedadas), next/image. Export estático (`output: 'export'`). Hospedagem: Cloudflare Pages. Repositório: github.com/HROSHEY/DrTakaki.
 
 ## Responsividade e acessibilidade ✅
 Mobile-first, WCAG 2.2 AA, `prefers-reduced-motion`, alvos de toque ≥ 44px, `lang="pt-BR"`.

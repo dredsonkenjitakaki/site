@@ -1,0 +1,68 @@
+# .claudesignore — pastas e arquivos que não interessam à leitura do código.
+# Next.js 15 (App Router) + React 19 + TypeScript, export estático para Cloudflare Pages.
+
+# Dependências
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+yarn-error.log
+
+# Saída de build e caches do Next.js
+.next/
+out/
+build/
+dist/
+.turbo/
+.swc/
+.tsbuildinfo
+*.tsbuildinfo
+next-env.d.ts
+
+# Deploy / hospedagem
+.vercel/
+.netlify/
+.wrangler/
+pages_build_output_dir/
+
+# Cobertura e testes
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Fontes de terceiros já processadas pelo build
+# (os .woff2 em app/fonts são usados pelo código — não ignorar)
+
+# Mídia bruta de trabalho (as imagens publicadas ficam em public/img)
+revisao/
+tools/*.tmp
+*.psd
+*.ai
+*.indd
+
+# Logs e temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+tmp/
+temp/
+.cache/
+*.tmp
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Git
+.git/

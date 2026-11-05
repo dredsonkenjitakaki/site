@@ -1,13 +1,27 @@
 import type { Metadata, Viewport } from 'next'
-import { Manrope, Newsreader } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 import Header from '@/components/Header'
 import MobileBar from '@/components/MobileBar'
 import Motion from '@/components/Motion'
 import { SITE_URL } from '@/lib/content'
 
-const serif = Newsreader({ subsets: ['latin'], weight: ['300', '400', '500'], style: ['normal', 'italic'], variable: '--font-serif', display: 'swap' })
-const sans = Manrope({ subsets: ['latin'], weight: ['400', '500', '600', '700'], variable: '--font-sans', display: 'swap' })
+// Fontes servidas do próprio site (subset latino que o Next já baixou), sem busca
+// no Google durante o build. Arquivos em app/fonts/.
+const serif = localFont({
+  src: [
+    { path: './fonts/newsreader-normal.woff2', weight: '300 500', style: 'normal' },
+    { path: './fonts/newsreader-italic.woff2', weight: '300 500', style: 'italic' },
+  ],
+  variable: '--font-serif',
+  display: 'swap',
+})
+
+const sans = localFont({
+  src: [{ path: './fonts/manrope.woff2', weight: '400 700', style: 'normal' }],
+  variable: '--font-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

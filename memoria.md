@@ -14,6 +14,10 @@
 - 2026-11-05 · Estrutura construída: Home, Patologias (9 artigos), Microcirurgia, Trajetória, Orientações, 404, sitemap, robots, JSON-LD (Physician, BreadcrumbList). Build passou (19 páginas).
 - 2026-11-05 · Imagens extraídas do .doc (18), tratadas e convertidas para WebP em `public/img`. As fotos 3 e 5 vinham com orientação EXIF; já corrigidas.
 - 2026-11-05 · Imagem do hero trocada a pedido do cliente pela foto do Dr. operando sob o microscópio cirúrgico (`dr-operando_2K (1).jpg`, versão que o próprio cliente comprimiu). Cópia byte a byte, sem reencode: `public/img/hero.jpg`, 2506×1664, 286.000 bytes (279 KB), SHA-256 `8b4f77c54885e0fa53c22c978e1d8fc0725f905c587e438775c192b170e1fa03`. Substitui o arquivo original de 2,5 MB usado na primeira troca do dia. O `hero.webp` anterior foi removido. `lib/images.ts` atualizado; `alt` agora é "Dr. Edson Kenji Takaki operando sob o microscópio cirúrgico"; `object-position` de `.hero .ph img` no desktop baixou de 35% para 22% porque a cabeça fica perto da borda superior. Recortes de desktop e mobile conferidos.
+- 2026-11-05 · `public/img/og.jpg` (imagem de compartilhamento) regerada a partir do novo hero, com `sharp` `resize(1200,630,{fit:'cover',position:'north'})` e `jpeg({quality:82,mozjpeg:true})`. Antes 124.479 bytes mostrando o hero antigo; agora 72.989 bytes, 1200×630. Enquadramento conferido: rosto, touca, microscópio e mãos dentro da área segura.
+- 2026-11-05 · Fontes passaram a ser auto-hospedadas: `next/font/google` trocado por `next/font/local` em `app/layout.tsx`, com os subsets latinos em `app/fonts/` (`newsreader-normal.woff2`, `newsreader-italic.woff2`, `manrope.woff2`). Motivo: o build no Cloudflare Pages falhava em `next/font` (`TypeError: Cannot read properties of null (reading '1')` em `loader.js:122`) porque a busca no Google Fonts durante o build não devolvia o CSS esperado. As famílias (Newsreader e Manrope), as variáveis `--font-serif`/`--font-sans` e o `display: 'swap'` continuam iguais; nenhuma mudança visual. O build deixou de depender de rede no deploy.
+- 2026-11-05 · Hospedagem corrigida na documentação: `specs/site.md` dizia "Vercel" e agora diz "Cloudflare Pages", coerente com o export estático (`output: 'export'`) já configurado.
+- 2026-11-05 · Criado `.claudesignore` na raiz, com `node_modules/`, `.next/`, `out/`, caches, cobertura, mídia bruta de trabalho, logs, `.env` e arquivos de sistema fora do escopo de leitura.
 
 ## Problemas encontrados
 - **Texto de terceiros no documento.** O artigo "Dedo em gatilho" é idêntico ao de dramarinapisani.com.br, e o documento linka outras páginas dessa mesma médica (túnel do carpo, De Quervain, microcirurgia, tendinite, cisto sinovial, alongamento, traumas). Os demais artigos têm o mesmo estilo e provavelmente têm a mesma origem. **Não foram copiados.** Os textos de patologia e de microcirurgia no site são originais, curtos e conservadores, e precisam ser revisados e aprovados pelo Dr. Takaki.
@@ -26,7 +30,6 @@
 - Confirmar com o Dr.: UF/RQE do CRM, "35 anos", textos de todas as páginas, legenda "Lions: honrarias".
 - Fotos prometidas no documento: Dr. com lupa, cirurgias, prédio/estacionamento/recepção, sala com o Dr., Dr. com a mão.
 - Logo oficial em SVG. Lista de "tipos de patologias" da página 2 do documento.
-- Domínio (`NEXT_PUBLIC_SITE_URL` na Vercel). Política de privacidade (LGPD) se houver analytics.
+- Domínio e `NEXT_PUBLIC_SITE_URL` no Cloudflare Pages. Política de privacidade (LGPD) se houver analytics.
 - Instagram/Facebook, se houver.
 - Verificar autorização de imagens cirúrgicas (CFM) e das imagens de terceiros.
-- `public/img/og.jpg` (imagem de compartilhamento) é anterior a esta troca e provavelmente ainda mostra o hero antigo. Regerar com a foto nova.
