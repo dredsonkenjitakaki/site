@@ -382,3 +382,15 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
   .hero .in{margin-top:calc(60svh - min(76svh,560px) - var(--gut));padding-top:0}
   .hero .ph::after{background:linear-gradient(0deg,var(--cobalt-d) 0,rgba(23,73,174,.9) 20%,rgba(23,73,174,0) 46%),linear-gradient(180deg,rgba(23,73,174,.35),rgba(23,73,174,0) 14%)}
 }
+
+/* Celular: áreas de atuação em escada, cada rótulo um degrau à direita do anterior */
+@media(max-width:640px){
+  .chips{flex-direction:column;align-items:flex-start;flex-wrap:nowrap;gap:10px}
+  .chips li:nth-child(1){margin-left:0}
+  .chips li:nth-child(2){margin-left:18px}
+  .chips li:nth-child(3){margin-left:36px}
+  .chips li:nth-child(4){margin-left:54px}
+  .chips li:nth-child(5){margin-left:72px}
+  .chips li:nth-child(6){margin-left:90px}
+  .chips li:nth-child(n+7){margin-left:108px}
+}
