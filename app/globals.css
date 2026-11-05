@@ -376,3 +376,9 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
   .glass{max-width:none}
   .glass-in{padding:0;background:none;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;border-radius:0}
 }
+
+/* Celular: o texto começa a 60% da altura da tela, sobre a parte azul da roupa */
+@media(max-width:960px){
+  .hero .in{margin-top:calc(60svh - min(76svh,560px) - var(--gut));padding-top:0}
+  .hero .ph::after{background:linear-gradient(0deg,var(--cobalt-d) 0,rgba(21,60,131,.9) 20%,rgba(21,60,131,0) 46%),linear-gradient(180deg,rgba(21,60,131,.35),rgba(21,60,131,0) 14%)}
+}
