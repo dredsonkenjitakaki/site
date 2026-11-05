@@ -3,19 +3,19 @@
 Legenda: ✅ aprovado · 🟡 proposta (confirmar) · ❓ pendente
 
 ## Direção ✅ (pedido do cliente)
-Azul claro e frio, tipo cobalto ou aço. Adaptação do padrão editorial do site do Dr. Amilcar, sem copiar: outra paleta, outra tipografia, outra estrutura.
+Azul vivo, entre sério e alegre (ajustado em 2026-11-05; antes, cobalto mais escuro). Adaptação do padrão editorial do site do Dr. Amilcar, sem copiar: outra paleta, outra tipografia, outra estrutura.
 
 ## Paleta 🟡
 | Papel | Hex |
 |---|---|
-| Cobalto (cor principal, hero, blocos escuros) | `#1E4FA8` |
-| Cobalto profundo (header ao rolar, hover) | `#153C83` |
+| Cobalto (cor principal, hero, blocos escuros) | `#1F5FD4` |
+| Cobalto profundo (header ao rolar, hover) | `#1749AE` |
 | Tinta (texto) | `#0E2A52` |
 | Aço (texto secundário) | `#4C6585` |
-| Gelo | `#D6E4F5` |
-| Frost (seções alternadas) | `#EAF1FA` |
-| Paper (fundo) | `#F6F9FD` |
-| Aqua (detalhe pontual, do cartão do Dr.) | `#62B6D8` |
+| Gelo | `#D5E5FC` |
+| Frost (seções alternadas) | `#EAF2FE` |
+| Paper (fundo) | `#F5F9FF` |
+| Aqua (detalhe pontual, do cartão do Dr.) | `#5CC0F2` |
 
 Aqua só em linhas, números e ícones, nunca em botões nem texto pequeno sobre cobalto.
 
