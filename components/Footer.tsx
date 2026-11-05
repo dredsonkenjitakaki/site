@@ -34,6 +34,10 @@ export default function Footer() {
           </div>
         </div>
         <p className="ft-copy">© 2026 {SITE.name} · Todos os direitos reservados</p>
+        <p className="ft-made">
+          Feito com <span aria-label="amor" role="img">❤️</span> por{' '}
+          <a href="https://luminacompany.com/" target="_blank" rel="noopener">Lumina</a>
+        </p>
       </div>
     </footer>
   )
