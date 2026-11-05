@@ -23,7 +23,7 @@ Aqua só em linhas, números e ícones, nunca em botões nem texto pequeno sobre
 Newsreader (títulos, itálico para a palavra de destaque) e Manrope (texto e interface). Rótulos em maiúsculas, 12px, tracking +0.2em.
 
 ## Layout
-Forma suave (pedido do cliente: o primeiro desenho estava muito quadrado). Hero em painel cobalto arredondado com foto de curvas orgânicas. Seções Frost e Cobalto são painéis flutuantes com cantos grandes (30 a 60px), não faixas retas. Menu em pílula flutuante, botões em pílula, retratos em arco, demais fotos com um canto mais curvo. Cartões com sombra difusa em vez de bordas duras. Patologias como índice editorial com seta em círculo. Sombras só suaves e com deslocamento.
+Arredondamento de 2,5px em todos os elementos (botões, menu, painéis, cartões, fotos), definido pelo cliente. Hero em painel cobalto, seções Frost e Cobalto como painéis flutuantes com pequena margem lateral, cartões com sombra difusa, patologias como índice editorial. Sombras só suaves e com deslocamento.
 
 ## Logo 🟡
 Símbolo da mão (pílulas + arco + anel) vetorizado a partir do cartão do Dr. Provisório. `[CONFIRMAR]` pedir o SVG oficial.

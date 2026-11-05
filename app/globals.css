@@ -253,61 +253,61 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .hero .ph img,[data-par]{will-change:transform}
 
 
-/* ===== Forma suave: cantos generosos, painéis flutuantes, sombras difusas ===== */
+/* ===== Forma: arredondamento de 2,5px em tudo (pedido do cliente); sombras difusas ===== */
 :root{
   --gut:clamp(10px,1.2vw,20px);
-  --r:20px;--r-lg:30px;--r-xl:clamp(30px,3.8vw,60px);
+  --r:2.5px;--r-lg:2.5px;--r-xl:2.5px;
   --shadow-s:0 1px 2px rgba(14,42,82,.05),0 10px 28px -14px rgba(14,42,82,.20);
   --shadow-m:0 2px 4px rgba(14,42,82,.04),0 28px 60px -28px rgba(14,42,82,.30);
 }
 ::selection{background:var(--aqua);color:var(--ink)}
 html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
-.btn{border-radius:999px;height:52px;padding:0 30px}
+.btn{border-radius:var(--r);height:52px;padding:0 30px}
 .btn-solid:hover,.btn-light:hover{transform:translateY(-2px);box-shadow:0 14px 28px -14px rgba(14,42,82,.5)}
 .btn-line{border-color:rgba(255,255,255,.55)}
 
 /* menu: pílula flutuante */
 .hdr,.hdr.solid{top:12px;height:auto;background:none}
 .hdr::before,.hdr.solid::before{content:none}
-.hdr .wrap{width:calc(100% - 2*var(--gut));max-width:1200px;margin:0 auto;padding:9px 10px 9px 24px;border-radius:999px;background:rgba(21,60,131,.5);-webkit-backdrop-filter:blur(16px) saturate(1.3);backdrop-filter:blur(16px) saturate(1.3);box-shadow:0 12px 32px -14px rgba(14,42,82,.45);transition:background .5s var(--ease)}
+.hdr .wrap{width:calc(100% - 2*var(--gut));max-width:1200px;margin:0 auto;padding:9px 10px 9px 24px;border-radius:var(--r);background:rgba(21,60,131,.5);-webkit-backdrop-filter:blur(16px) saturate(1.3);backdrop-filter:blur(16px) saturate(1.3);box-shadow:0 12px 32px -14px rgba(14,42,82,.45);transition:background .5s var(--ease)}
 .hdr.solid .wrap{background:rgba(21,60,131,.95)}
 .brand img{width:26px;height:auto}
-.sheet{border-radius:32px 0 0 32px}
-.mbar{left:14px;right:14px;bottom:14px;height:54px;border-radius:999px;box-shadow:0 14px 30px -12px rgba(14,42,82,.55)}
+.sheet{border-radius:var(--r)}
+.mbar{left:14px;right:14px;bottom:14px;height:54px;border-radius:var(--r);box-shadow:0 14px 30px -12px rgba(14,42,82,.55)}
 
 /* faixas viram painéis arredondados */
-.hero,.phero,.dark,.frost{margin-left:var(--gut);margin-right:var(--gut);border-radius:var(--r-xl)}
+.hero,.phero,.dark,.frost{margin-left:var(--gut);margin-right:var(--gut);border-radius:var(--r)}
 .hero{margin-top:var(--gut);min-height:calc(100svh - var(--gut))}
 .phero{margin-top:var(--gut)}
 .dark,.frost{margin-top:var(--gut);margin-bottom:var(--gut)}
-.hero .ph{margin:14px 14px 14px 0;border-radius:48px 40px 40px 170px}
+.hero .ph{margin:14px 14px 14px 0;border-radius:var(--r)}
 .hero .ph::after{content:none}
-.ft{margin:var(--gut);border-radius:var(--r-xl)}
+.ft{margin:var(--gut);border-radius:var(--r)}
 .ft .wrap{padding-left:clamp(20px,4vw,56px);padding-right:clamp(20px,4vw,56px)}
 
 /* fotos: arco, curvas assimétricas */
-.fig{border-radius:var(--r-lg)}
-.fig.r45{border-radius:999px 999px var(--r-lg) var(--r-lg)}
-.fig.r43{border-radius:28px 96px 28px 28px}
-.fig.r32{border-radius:96px 28px 28px 28px}
+.fig{border-radius:var(--r)}
+.fig.r45{border-radius:var(--r)}
+.fig.r43{border-radius:var(--r)}
+.fig.r32{border-radius:var(--r)}
 .gal .fig{border-radius:var(--r)}
-.fig figcaption{border-radius:0 0 var(--r-lg) var(--r-lg)}
+.fig figcaption{border-radius:var(--r)}
 
 /* faixa de fatos: barra flutuante */
 .facts{background:none;border:0;margin-top:-42px;position:relative;z-index:3;padding:0 var(--gut)}
-.facts .wrap{background:#fff;border-radius:var(--r-lg);box-shadow:var(--shadow-m);padding:0 clamp(10px,2vw,28px);max-width:1080px}
+.facts .wrap{background:#fff;border-radius:var(--r);box-shadow:var(--shadow-m);padding:0 clamp(10px,2vw,28px);max-width:1080px}
 .facts .it{border-left-color:rgba(14,42,82,.1)}
 .facts .it:first-child{padding-left:8px}
 .facts + .sec{padding-top:clamp(96px,11vw,150px)}
 
 /* cartões e caixas: sem moldura dura */
-.card,.press a,.aside .box{border:0;border-radius:var(--r-lg);box-shadow:var(--shadow-s)}
+.card,.press a,.aside .box{border:0;border-radius:var(--r);box-shadow:var(--shadow-s)}
 .press a:hover{box-shadow:var(--shadow-m)}
 .aside .box{box-shadow:none}
-.ctbox{border-radius:var(--r-lg);border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.07)}
+.ctbox{border-radius:var(--r);border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.07)}
 .note{border-radius:var(--r)}
-.chips li{border-radius:999px;border:0;box-shadow:var(--shadow-s);padding:9px 18px}
-.hosp span{border-radius:999px;border:0;box-shadow:var(--shadow-s)}
+.chips li{border-radius:var(--r);border:0;box-shadow:var(--shadow-s);padding:9px 18px}
+.hosp span{border-radius:var(--r);border:0;box-shadow:var(--shadow-s)}
 .qt{margin-top:30px;padding:22px 26px;border:0;border-radius:var(--r);background:var(--frost)}
 .dark .qt{background:rgba(255,255,255,.1)}
 
@@ -315,7 +315,7 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
 .idx{border-top:0}
 .idx a{border-bottom:1px solid rgba(14,42,82,.08);border-radius:var(--r);padding-left:12px;padding-right:12px}
 .idx a:hover{padding-left:20px;background:var(--frost)}
-.idx svg{box-sizing:content-box;padding:11px;border-radius:50%;background:var(--frost);color:var(--cobalt);transition:transform .4s var(--ease),background .4s}
+.idx svg{box-sizing:content-box;padding:11px;border-radius:var(--r);background:var(--frost);color:var(--cobalt);transition:transform .4s var(--ease),background .4s}
 .idx a:hover svg{background:#fff;transform:translate(4px,0)}
 .press .idx svg{background:var(--frost)}
 
@@ -329,10 +329,10 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
 @media(max-width:960px){
   .hdr .wrap{padding:8px 8px 8px 18px}
   .hero{margin-top:var(--gut);min-height:0}
-  .hero .ph{margin:12px 12px 0;border-radius:34px 34px 34px 90px}
+  .hero .ph{margin:12px 12px 0;border-radius:var(--r)}
   .hero .ph::after{content:none}
   .facts{margin-top:-30px}
-  .fig.r45{border-radius:999px 999px 26px 26px}
-  .fig.r43,.fig.r32{border-radius:26px 64px 26px 26px}
+  .fig.r45{border-radius:var(--r)}
+  .fig.r43,.fig.r32{border-radius:var(--r)}
   .ft{margin-bottom:calc(var(--gut) + 74px);padding-bottom:28px}
 }
