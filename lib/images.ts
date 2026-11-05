@@ -1,5 +1,5 @@
 export const IMG = {
-  'hero': { src: '/img/hero.webp', w: 1608, h: 1068 },
+  'hero': { src: '/img/hero.webp', w: 3216, h: 2136 },
   'retrato': { src: '/img/retrato.webp', w: 1300, h: 1796 },
   'atendimento': { src: '/img/atendimento.webp', w: 960, h: 997 },
   'cirurgiao-microscopio': { src: '/img/cirurgiao-microscopio.webp', w: 720, h: 1085 },

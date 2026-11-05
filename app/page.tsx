@@ -52,7 +52,7 @@ export default function Home() {
             <div className="cred">{SITE.name} · {SITE.crm}</div>
           </div>
           <div className="ph">
-            <Photo k="hero" alt="Dr. Edson Kenji Takaki operando com lupa cirúrgica" priority sizes="(max-width: 960px) 100vw, 50vw" />
+            <Photo k="hero" alt="Dr. Edson Kenji Takaki operando com lupa cirúrgica" priority quality={90} sizes="(max-width: 960px) 100vw, 1200px" />
           </div>
         </section>
 
