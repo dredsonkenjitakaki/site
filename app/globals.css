@@ -350,3 +350,11 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
   .hero .ph::after{background:linear-gradient(0deg,rgba(21,60,131,.97) 0%,rgba(21,60,131,.9) 40%,rgba(21,60,131,.15) 66%,rgba(21,60,131,0) 82%),linear-gradient(180deg,rgba(21,60,131,.55),rgba(21,60,131,0) 18%)}
   .hero .in{grid-column:1;justify-content:flex-end;padding:120px var(--pad) 72px}
 }
+
+/* O gorro encosta na borda de cima da foto: ela começa abaixo do menu */
+.hero .ph{top:88px}
+.hero .ph::after{background:linear-gradient(180deg,var(--cobalt-d) 0,rgba(21,60,131,0) 34px),linear-gradient(270deg,rgba(21,60,131,.94) 0%,rgba(21,60,131,.84) 34%,rgba(21,60,131,.28) 62%,rgba(21,60,131,0) 78%)}
+@media(max-width:960px){
+  .hero .ph{top:84px}
+  .hero .ph::after{background:linear-gradient(180deg,var(--cobalt-d) 0,rgba(21,60,131,0) 30px),linear-gradient(0deg,rgba(21,60,131,.97) 0%,rgba(21,60,131,.9) 40%,rgba(21,60,131,.15) 66%,rgba(21,60,131,0) 82%)}
+}
