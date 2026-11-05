@@ -336,3 +336,17 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
   .fig.r43,.fig.r32{border-radius:var(--r)}
   .ft{margin-bottom:calc(var(--gut) + 74px);padding-bottom:28px}
 }
+
+/* ===== Hero em tela cheia: a foto é o fundo (sem painel azul) ===== */
+.hero{margin:0;border-radius:0;min-height:100svh;grid-template-columns:1fr 1fr;background:var(--cobalt-d)}
+.hero .ph{position:absolute;inset:0;margin:0;border-radius:0;min-height:0;order:0}
+.hero .ph img{object-position:28% 35%}
+.hero .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(21,60,131,.94) 0%,rgba(21,60,131,.84) 34%,rgba(21,60,131,.28) 62%,rgba(21,60,131,0) 78%)}
+.hero .in{grid-column:2;padding:130px clamp(24px,calc((100vw - 1200px)/2 + 24px),150px) 90px clamp(24px,3vw,48px)}
+@media(max-width:960px){
+  .hero{grid-template-columns:1fr;min-height:100svh;height:auto;margin:0}
+  .hero .ph{height:auto;margin:0;border-radius:0}
+  .hero .ph img{object-position:28% 20%}
+  .hero .ph::after{background:linear-gradient(0deg,rgba(21,60,131,.97) 0%,rgba(21,60,131,.9) 40%,rgba(21,60,131,.15) 66%,rgba(21,60,131,0) 82%),linear-gradient(180deg,rgba(21,60,131,.55),rgba(21,60,131,0) 18%)}
+  .hero .in{grid-column:1;justify-content:flex-end;padding:120px var(--pad) 72px}
+}
