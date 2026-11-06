@@ -82,7 +82,7 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .hero .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
 .hero .cred{margin-top:34px;padding-top:16px;border-top:1px solid rgba(255,255,255,.3);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ice);display:inline-block;align-self:flex-start}
 .hero .ph{position:relative;min-height:420px;overflow:hidden;order:-1}
-.hero .ph img{position:absolute;inset:-4% 0;width:100%;height:108%;object-fit:cover;object-position:30% 25%}
+.hero .ph img{position:absolute;inset:0 0 -6% 0;width:100%;height:106%;object-fit:cover;object-position:26% 8%}
 .hero .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--cobalt),rgba(31,95,212,0) 22%)}
 @media(prefers-reduced-motion:no-preference){
   .js .hero .in .eyebrow,.js .hero .lead,.js .hero .ctas,.js .hero .cred{opacity:0;visibility:hidden}
@@ -340,13 +340,13 @@ html{scrollbar-color:var(--cobalt) var(--frost);scroll-padding-top:104px}
 /* ===== Hero em tela cheia: a foto é o fundo (sem painel azul) ===== */
 .hero{margin:0;border-radius:0;min-height:100svh;grid-template-columns:1fr 1fr;background:var(--cobalt-d)}
 .hero .ph{position:absolute;inset:0;margin:0;border-radius:0;min-height:0;order:0}
-.hero .ph img{object-position:28% 22%}
+.hero .ph img{object-position:26% 8%}
 .hero .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(23,73,174,.94) 0%,rgba(23,73,174,.84) 34%,rgba(23,73,174,.28) 62%,rgba(23,73,174,0) 78%)}
 .hero .in{grid-column:2;padding:130px clamp(24px,calc((100vw - 1200px)/2 + 24px),150px) 90px clamp(24px,3vw,48px)}
 @media(max-width:960px){
   .hero{grid-template-columns:1fr;min-height:100svh;height:auto;margin:0}
   .hero .ph{height:auto;margin:0;border-radius:0}
-  .hero .ph img{object-position:28% 20%}
+  .hero .ph img{object-position:14% 10%}
   .hero .ph::after{background:linear-gradient(0deg,rgba(23,73,174,.97) 0%,rgba(23,73,174,.9) 40%,rgba(23,73,174,.15) 66%,rgba(23,73,174,0) 82%),linear-gradient(180deg,rgba(23,73,174,.55),rgba(23,73,174,0) 18%)}
   .hero .in{grid-column:1;justify-content:flex-end;padding:120px var(--pad) 72px}
 }
