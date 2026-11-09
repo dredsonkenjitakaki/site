@@ -166,6 +166,10 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .ctbox h3{font:400 1.8rem var(--serif);margin:8px 0 12px}
 .ctbox p{color:var(--ice);font-size:.95rem}
 .ctbox .btn{margin-top:22px}
+.hours{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:10px}
+.hours li{display:flex;justify-content:space-between;gap:16px;color:var(--ice);font-size:.95rem;border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:10px}
+.hours li:last-child{border-bottom:0;padding-bottom:0}
+.hours b{font-weight:600;color:#fff;white-space:nowrap}
 .ctl{display:flex;gap:12px;align-items:center;margin-top:12px;font-weight:500}
 .ctl .ic{color:var(--aqua);flex:none}
 .ctl:hover{color:var(--aqua)}

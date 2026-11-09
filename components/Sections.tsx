@@ -48,6 +48,18 @@ export function ContactSection() {
             <Cta className="btn btn-light"><WhatsApp /> Agendar consulta</Cta>
             <a className="ctl" href={`tel:${OFFICE.tel}`}><Phone /><span>{OFFICE.phone}</span></a>
           </div>
+          <div className="ctbox">
+            <div className="eyebrow">Horários de atendimento</div>
+            <ul className="hours">
+              {OFFICE.hours.map(([d, h]) => <li key={d}><span>{d}</span><b>{h}</b></li>)}
+            </ul>
+          </div>
+          <div className="ctbox">
+            <div className="eyebrow">Convênios</div>
+            <ul className="hours">
+              {OFFICE.insurance.map((c) => <li key={c}><span>{c}</span></li>)}
+            </ul>
+          </div>
         </div>
       </div>
     </section>

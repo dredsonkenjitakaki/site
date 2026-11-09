@@ -22,6 +22,13 @@ const ld = {
   image: `${SITE_URL}/img/og.jpg`,
   medicalSpecialty: ['Hand surgery', 'Plastic surgery'],
   identifier: SITE.crm,
+  memberOf: { '@type': 'Organization', name: SITE.societyFull, alternateName: SITE.society },
+  paymentAccepted: OFFICE.insurance.join(', '),
+  openingHoursSpecification: [
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Wednesday'], opens: '08:00', closes: '18:00' },
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Tuesday', 'Thursday'], opens: '14:00', closes: '18:00' },
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Friday', opens: '08:00', closes: '12:00' },
+  ],
   telephone: OFFICE.tel,
   address: {
     '@type': 'PostalAddress',
@@ -50,7 +57,7 @@ export default function Home() {
               <Cta className="btn btn-light"><WhatsApp /> Agendar consulta</Cta>
               <Link className="btn btn-line" href="/trajetoria">Conhecer a trajetória <Arrow /></Link>
             </div>
-            <div className="cred">{SITE.name} · {SITE.crm}</div>
+            <div className="cred">{SITE.name} · {SITE.crm} · Membro da {SITE.society}</div>
             </div></div>
           </div>
           <div className="ph">
@@ -60,9 +67,9 @@ export default function Home() {
 
         <section className="facts" aria-label="Em resumo">
           <div className="wrap">
-            <div className="it"><b>Desde 1987</b><small>Cirurgia da mão em Londrina</small></div>
+            <div className="it"><b>40 anos</b><small>De profissão em Londrina</small></div>
             <div className="it"><b>3 anos</b><small>De especialização em Tóquio</small></div>
-            <div className="it"><b>UEL</b><small>Formação em Medicina</small></div>
+            <div className="it"><b>{SITE.society}</b><small>Membro da {SITE.societyFull}</small></div>
             <div className="it"><b>{SITE.crm}</b><small>Registro profissional</small></div>
           </div>
         </section>
@@ -174,6 +181,10 @@ export default function Home() {
               <h2 className="serif">No Jardim Ipiranga, <em>de fácil acesso.</em></h2>
               <p className="mut">O consultório particular fica perto de importantes hospitais e laboratórios de Londrina, com estacionamento no subsolo e em vários locais ao redor.</p>
               <p style={{ marginTop: 14, fontWeight: 600 }}>{OFFICE.street}<br /><span className="mut" style={{ fontWeight: 400 }}>{OFFICE.area} · {OFFICE.city}-{OFFICE.uf}</span></p>
+              <div className="eyebrow" style={{ marginTop: 26 }}>Convênios</div>
+              <div className="hosp">
+                {OFFICE.insurance.map((c) => <span key={c}>{c}</span>)}
+              </div>
               <div className="eyebrow" style={{ marginTop: 26 }}>Hospitais em que atua</div>
               <div className="hosp">
                 {HOSPITALS.map((h) => (

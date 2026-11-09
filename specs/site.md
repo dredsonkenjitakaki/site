@@ -20,6 +20,7 @@ Somente português (BR).
 - Consultório: Av. Bandeirantes, 500, 6º andar, sala 608, Jardim Ipiranga, Londrina-PR. Mapa: https://maps.app.goo.gl/YrCq5wBw4fnsSpCD6
 - Telefone (43) 3324-6159. WhatsApp (43) 99150-6159 (secretária Luciane).
 - Hospitais: Evangélico e Unimed.
+- Horários: seg e qua 8h às 18h · ter e qui 14h às 18h · sex 8h às 12h. Convênios: Unimed, Hospitalar (rede aberta) e Particular. (09/11/2026)
 - Sem Instagram/Facebook até o cliente informar `[CONFIRMAR]`.
 
 ## CTA ✅
@@ -27,7 +28,8 @@ Botão "Agendar consulta" abre o WhatsApp do consultório (`wa.me`, mensagem pr�
 
 ## Credenciais: o que pode ser afirmado
 Pode: CRM 7669; formação na UEL; bolsa do governo japonês em 1984 e três anos de especialização na Universidade de Tóquio (cirurgia plástica reconstrutora, cirurgia da mão, microcirurgia); retorno em 1987; Hospital Evangélico.
-Pendente `[CONFIRMAR]`: UF e RQE; "35 anos de expertise" (o documento diz 35; o retorno em 1987 sugere cerca de 38); título de especialista e sociedades.
+Também pode (informado em 09/11/2026): 40 anos de profissão; membro da SBCM (Sociedade Brasileira de Cirurgia da Mão).
+Pendente `[CONFIRMAR]`: UF e RQE; título de especialista.
 Não usar: nome de paciente, dados pessoais e religiosos, superlativos.
 
 ## Stack ✅

@@ -29,7 +29,7 @@ export default function Trajetoria() {
             <div data-rv>
               <div className="eyebrow">Formação</div>
               <h2 className="serif">Um interesse que <em>começou na faculdade.</em></h2>
-              <p>O Dr. Takaki se formou na Universidade Estadual de Londrina. Desde estudante, gostava de acompanhar trabalhos sobre cirurgia da mão e de ler sobre microcirurgia.</p>
+              <p>O Dr. Takaki se formou na Universidade Estadual de Londrina e é membro da {SITE.societyFull} ({SITE.society}). Desde estudante, gostava de acompanhar trabalhos sobre cirurgia da mão e de ler sobre microcirurgia.</p>
               <p>Naquela época, a área era pouco conhecida, e em Londrina e região ninguém realizava esses procedimentos. Poucos centros no mundo desenvolviam a técnica, e o acesso aos trabalhos publicados era difícil.</p>
             </div>
           </div>

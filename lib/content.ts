@@ -6,6 +6,8 @@ export const SITE = {
   short: 'Dr. Takaki',
   crm: 'CRM-PR 7669', // [CONFIRMAR] UF e RQE com o consultório
   role: 'Microcirurgia e cirurgia da mão',
+  society: 'SBCM',
+  societyFull: 'Sociedade Brasileira de Cirurgia da Mão',
 }
 
 /* Domínio de produção. Usado como fallback para que canonical, og:image,
@@ -27,6 +29,13 @@ export const OFFICE = {
   waLabel: '(43) 99150-6159',
   map: 'https://maps.app.goo.gl/YrCq5wBw4fnsSpCD6',
   secretary: 'Luciane',
+  /* Informado pela secretaria e pelo Dr. em 2026-11-09. */
+  hours: [
+    ['Segundas e quartas', '8h às 18h'],
+    ['Terças e quintas', '14h às 18h'],
+    ['Sextas', '8h às 12h'],
+  ] as const,
+  insurance: ['Unimed', 'Hospitalar (rede aberta)', 'Particular'],
 }
 
 const MSG = 'Olá! Gostaria de agendar uma consulta com o Dr. Edson Kenji Takaki.'
