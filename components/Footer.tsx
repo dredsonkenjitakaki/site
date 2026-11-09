@@ -14,6 +14,7 @@ export default function Footer() {
               <b>{SITE.name}</b>
               <span>Microcirurgia · Cirurgia da mão · Plástica reconstrutora</span>
               <span>{SITE.crm}</span>
+              {SITE.rqe.map((r) => <span key={r.n}>RQE {r.n} · {r.esp}</span>)}
             </div>
           </div>
           <div className="ft-col">

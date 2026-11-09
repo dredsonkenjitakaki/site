@@ -4,7 +4,12 @@ import type { ImgKey } from './images'
 export const SITE = {
   name: 'Dr. Edson Kenji Takaki',
   short: 'Dr. Takaki',
-  crm: 'CRM-PR 7669', // [CONFIRMAR] UF e RQE com o consultório
+  crm: 'CRM-PR 7669',
+  /* Certificados de Especialista do CRM-PR (recebidos do Dr. em 2026-11-09). */
+  rqe: [
+    { esp: 'Cirurgia da Mão', n: '8847' },
+    { esp: 'Cirurgia Plástica', n: '9249' },
+  ],
   role: 'Microcirurgia e cirurgia da mão',
   society: 'SBCM',
   societyFull: 'Sociedade Brasileira de Cirurgia da Mão',

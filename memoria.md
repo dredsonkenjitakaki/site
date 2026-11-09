@@ -22,6 +22,8 @@
 
 - 2026-11-06 · Enquadramento do hero ajustado para desktop e mobile: adicionados 240px de extensão natural da parede no topo de public/img/hero.jpg (altura 1664 -> 1904px, mantendo largura 2506px e peso em ~300 KB com mozjpeg). No CSS (app/globals.css), inset:-4% trocado por inset:0 0 -6% 0 (eliminando o puxão negativo no topo); object-position desktop ajustado para 26% 8% e mobile para 14% 10%. Com isso, a touca e o rosto do Dr. saíram de trás do header fixo em ambas as telas, e o rosto ficou horizontalmente e verticalmente centralizado na área visível do mobile. Imagem de compartilhamento (public/img/og.jpg) regerada com o novo enquadramento.\r\n\r\n- 2026-11-09 · Feedback da secretaria e do Dr. aplicado: (1) "40 anos de profissão" substitui "Desde 1987" na faixa de fatos da home; (2) convênios: Unimed, Hospitalar (rede aberta) e Particular, na seção de contato (todas as páginas) e no consultório da home; (3) horários: seg e qua 8h às 18h, ter e qui 14h às 18h, sex 8h às 12h, na seção de contato e no JSON-LD; (4) membro da SBCM (Sociedade Brasileira de Cirurgia da Mão): faixa de fatos (no lugar de "UEL", que segue na Trajetória), cred do hero, Trajetória e JSON-LD `memberOf`; (5) retirada de pontos em cerca de 2 semanas e volta às atividades, inclusive dirigir, em cerca de 3 semanas, nos artigos de túnel do carpo, dedo em gatilho, De Quervain e cisto sinovial (redação "costuma", sem promessa).
 
+- 2026-11-09 · UF e RQE confirmados pelos certificados do CRM-PR enviados pelo Dr.: CRM-PR 7669; Cirurgia da Mão RQE 8847 (24/02/1999) e Cirurgia Plástica RQE 9249 (05/05/1999). Exibidos no hero, rodapé, Trajetória e JSON-LD (`SITE.rqe` em `lib/content.ts`). Sociedade: SBCM segue no site.
+
 ## Problemas encontrados
 - **Texto de terceiros no documento.** O artigo "Dedo em gatilho" é idêntico ao de dramarinapisani.com.br, e o documento linka outras páginas dessa mesma médica (túnel do carpo, De Quervain, microcirurgia, tendinite, cisto sinovial, alongamento, traumas). Os demais artigos têm o mesmo estilo e provavelmente têm a mesma origem. **Não foram copiados.** Os textos de patologia e de microcirurgia no site são originais, curtos e conservadores, e precisam ser revisados e aprovados pelo Dr. Takaki.
 - Imagens de mãos e ilustrações podem ser de banco ou de terceiros.
@@ -30,7 +32,7 @@
 - Caso de paciente identificado (reimplante de ambas as mãos) e dados pessoais/religiosos do Dr. não foram usados.
 
 ## Pendências
-- Confirmar com o Dr.: UF/RQE do CRM, textos de todas as páginas, legenda "Lions: honrarias". ("35 anos" resolvido: 40 anos.)
+- Confirmar com o Dr.: textos de todas as páginas, legenda "Lions: honrarias". ("35 anos" resolvido: 40 anos.)
 - Confirmar prazos que ainda faltam: túnel cubital, sindactilia, dedo em martelo; liberação para carregar peso. Orientações diz retorno do curativo "cerca de uma semana" e os pontos saem em 2 semanas: conferir se são retornos diferentes.
 - Fotos prometidas no documento: Dr. com lupa, cirurgias, prédio/estacionamento/recepção, sala com o Dr., Dr. com a mão.
 - Logo oficial em SVG. Lista de "tipos de patologias" da página 2 do documento.

@@ -17,7 +17,7 @@ export default function Trajetoria() {
         <PageHero
           crumb={[['Trajetória', '']]}
           title={<>Contexto e trajetória do <em>Dr. Takaki</em></>}
-          lead={`${SITE.name} · ${SITE.crm}`}
+          lead={`${SITE.name} · ${SITE.crm} · ${SITE.rqe.map((r) => `RQE ${r.n} (${r.esp})`).join(' · ')}`}
           cta={false}
         />
 

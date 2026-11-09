@@ -29,7 +29,7 @@ Botão "Agendar consulta" abre o WhatsApp do consultório (`wa.me`, mensagem pr�
 ## Credenciais: o que pode ser afirmado
 Pode: CRM 7669; formação na UEL; bolsa do governo japonês em 1984 e três anos de especialização na Universidade de Tóquio (cirurgia plástica reconstrutora, cirurgia da mão, microcirurgia); retorno em 1987; Hospital Evangélico.
 Também pode (informado em 09/11/2026): 40 anos de profissão; membro da SBCM (Sociedade Brasileira de Cirurgia da Mão).
-Pendente `[CONFIRMAR]`: UF e RQE; título de especialista.
+Especialista (certificados do CRM-PR, 09/11/2026): Cirurgia da Mão, RQE 8847 (24/02/1999); Cirurgia Plástica, RQE 9249 (05/05/1999). Citar o RQE junto à especialidade.
 Não usar: nome de paciente, dados pessoais e religiosos, superlativos.
 
 ## Stack ✅

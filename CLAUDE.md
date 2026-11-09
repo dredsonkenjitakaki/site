@@ -1,6 +1,6 @@
 # Site Dr. Edson Kenji Takaki: Cirurgia da mão e microcirurgia
 
-Site institucional editorial e humanizado. Médico: Dr. Edson Kenji Takaki (CRM-PR 7669 `[CONFIRMAR UF e RQE]`), Londrina-PR.
+Site institucional editorial e humanizado. Médico: Dr. Edson Kenji Takaki (CRM-PR 7669; RQE 8847 Cirurgia da Mão e RQE 9249 Cirurgia Plástica), Londrina-PR.
 
 ## Fontes de verdade (ler sempre)
 - @specs/site.md: o que construir

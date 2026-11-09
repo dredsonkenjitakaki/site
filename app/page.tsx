@@ -21,7 +21,7 @@ const ld = {
   url: SITE_URL,
   image: `${SITE_URL}/img/og.jpg`,
   medicalSpecialty: ['Hand surgery', 'Plastic surgery'],
-  identifier: SITE.crm,
+  identifier: [SITE.crm, ...SITE.rqe.map((r) => `RQE ${r.n} ${r.esp}`)],
   memberOf: { '@type': 'Organization', name: SITE.societyFull, alternateName: SITE.society },
   paymentAccepted: OFFICE.insurance.join(', '),
   openingHoursSpecification: [
@@ -57,7 +57,7 @@ export default function Home() {
               <Cta className="btn btn-light"><WhatsApp /> Agendar consulta</Cta>
               <Link className="btn btn-line" href="/trajetoria">Conhecer a trajetória <Arrow /></Link>
             </div>
-            <div className="cred">{SITE.name} · {SITE.crm} · Membro da {SITE.society}</div>
+            <div className="cred">{SITE.name} · {SITE.crm} · {SITE.rqe.map((r) => `RQE ${r.n} (${r.esp})`).join(' · ')}</div>
             </div></div>
           </div>
           <div className="ph">
