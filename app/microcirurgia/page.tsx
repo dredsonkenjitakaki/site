@@ -42,7 +42,6 @@ export default function Microcirurgia() {
               <h2 className="serif">O que é <em>um reimplante.</em></h2>
               <p>Reimplante é a cirurgia que recoloca no lugar uma parte do corpo separada por acidente, como um dedo, a mão, parte do braço ou o pé. Sob o microscópio, o cirurgião fixa o osso e reconecta tendões, artérias, veias e nervos.</p>
               <p style={{ marginTop: 14 }}>A cirurgia é longa e depende de cada caso. O objetivo é restabelecer o máximo de função possível, e o resultado varia em cada caso. Nem toda amputação permite o reimplante: a avaliação médica é que define.</p>
-              <p style={{ marginTop: 14 }}>Reimplantes e reconstruções são feitos em atendimento particular, fora do convênio. <Pend>confirmar com a Luciane</Pend></p>
               <InstaNote />
             </div>
             <div className="card" data-rv>
@@ -101,7 +100,6 @@ export default function Microcirurgia() {
               <div className="eyebrow">Em caso de amputação</div>
               <h2 className="serif">O que fazer <em>nos primeiros minutos.</em></h2>
               <p>Se uma parte do corpo foi amputada, ligue para o SAMU (192) ou vá ao pronto-socorro mais próximo e avise que se trata de uma amputação. Leve a parte amputada junto.</p>
-              <p style={{ marginTop: 14 }}>Telefone de urgência do consultório: <Pend>confirmar com a Luciane</Pend></p>
               <div style={{ marginTop: 22 }}>
                 <Cta className="btn btn-light" text="Olá! Preciso de orientação sobre uma lesão grave na mão ou em um membro."><WhatsApp /> Falar pelo WhatsApp</Cta>
               </div>

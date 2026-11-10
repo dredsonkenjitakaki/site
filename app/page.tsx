@@ -5,7 +5,7 @@ import { Arrow, WhatsApp } from '@/components/Icons'
 import JsonLd from '@/components/JsonLd'
 import Cta from '@/components/Cta'
 import Photo from '@/components/Photo'
-import { ContactSection, InstaNote, MoreLink, Pend } from '@/components/Sections'
+import { ContactSection, InstaNote, MoreLink } from '@/components/Sections'
 import { ARTICLES, FOCUS, HOSPITALS, MICRO, OFFICE, SITE, SITE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
@@ -94,7 +94,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <p className="mut" style={{ marginTop: 28, maxWidth: '44em' }} data-rv>Reimplantes e reconstruções são feitos em atendimento particular, fora do convênio. <Pend>confirmar com a Luciane</Pend></p>
             <div data-rv><InstaNote /></div>
           </div>
         </section>
