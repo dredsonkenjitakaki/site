@@ -21,7 +21,7 @@ Somente português (BR).
 - Telefone (43) 3324-6159. WhatsApp (43) 99150-6159 (secretária Luciane).
 - Hospitais: Evangélico e Unimed.
 - Horários: seg e qua 8h às 18h · ter e qui 14h às 18h · sex 8h às 12h. Convênios: Unimed, Hospitalar (rede aberta) e Particular. (09/11/2026)
-- Sem Instagram/Facebook até o cliente informar `[CONFIRMAR]`.
+- Instagram do Dr.: @dredsonkenjitakaki (https://www.instagram.com/dredsonkenjitakaki/), onde ficam os casos de maior porte (reimplantes e cirurgias reconstrutivas), contados nas histórias. O site detalha as condições mais frequentes; nada de reimplante é removido. Facebook: sem até o cliente informar `[CONFIRMAR]`.
 
 ## CTA ✅
 Botão "Agendar consulta" abre o WhatsApp do consultório (`wa.me`, mensagem pré-preenchida). Header, hero, páginas internas, contato e barra fixa no celular. Sem formulário.

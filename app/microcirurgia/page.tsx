@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Footer from '@/components/Footer'
 import Photo from '@/components/Photo'
-import { ContactSection, PageHero } from '@/components/Sections'
+import { ContactSection, InstaNote, PageHero } from '@/components/Sections'
 
 export const metadata: Metadata = {
   title: 'Microcirurgia reconstrutiva | Dr. Edson Kenji Takaki, Londrina',
@@ -41,6 +41,7 @@ export default function Microcirurgia() {
               <div className="card" data-rv>
                 <h3>Reimplante e reconstrução</h3>
                 <p className="mut">Em casos como a perda de um dedo, é preciso reconstruir vasos, veias e artérias muito pequenos, o que só é possível sob ampliação. A técnica também é indicada para quem perdeu um segmento de nervo, pele ou osso na mão, no antebraço ou na perna.</p>
+                <InstaNote />
               </div>
               <div className="card" data-rv>
                 <h3>Cobertura de áreas sem pele</h3>

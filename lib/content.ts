@@ -41,6 +41,8 @@ export const OFFICE = {
     ['Sextas', '8h às 12h'],
   ] as const,
   insurance: ['Unimed', 'Hospitalar (rede aberta)', 'Particular'],
+  instagram: 'https://www.instagram.com/dredsonkenjitakaki/',
+  instagramHandle: '@dredsonkenjitakaki',
 }
 
 const MSG = 'Olá! Gostaria de agendar uma consulta com o Dr. Edson Kenji Takaki.'

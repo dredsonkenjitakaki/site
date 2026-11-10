@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Footer from '@/components/Footer'
 import Photo from '@/components/Photo'
-import { ContactSection, PageHero } from '@/components/Sections'
+import { ContactSection, InstaNote, PageHero } from '@/components/Sections'
 import { PRESS, SITE, VIDEOS } from '@/lib/content'
 
 export const metadata: Metadata = {
@@ -59,6 +59,7 @@ export default function Trajetoria() {
               <div className="eyebrow">Atuação</div>
               <h2 className="serif">Uma área <em>vasta e complexa.</em></h2>
               <p>A cirurgia da mão vai das condições mais comuns, como a síndrome do túnel do carpo, o dedo em gatilho e o cisto sinovial, a patologias mais complexas, como deformidades congênitas, lesões por esmagamento e reimplantes de membros.</p>
+              <InstaNote />
               <blockquote className="qt">
                 <p>“Meu maior prazer é ver o paciente recuperado. Esse sempre foi o meu objetivo, me preparei para isso.”</p>
                 <cite>Edson Kenji Takaki</cite>

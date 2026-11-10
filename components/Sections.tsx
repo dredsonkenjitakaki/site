@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { ReactNode } from 'react'
 import { OFFICE } from '@/lib/content'
 import Cta from './Cta'
-import { Arrow, Phone, Pin, WhatsApp } from './Icons'
+import { Arrow, Instagram, Phone, Pin, WhatsApp } from './Icons'
 
 export function PageHero({ crumb, title, lead, cta = true }: { crumb: [string, string][]; title: ReactNode; lead?: string; cta?: boolean }) {
   return (
@@ -47,6 +47,7 @@ export function ContactSection() {
             <p>WhatsApp da secretaria {OFFICE.secretary}.</p>
             <Cta className="btn btn-light"><WhatsApp /> Agendar consulta</Cta>
             <a className="ctl" href={`tel:${OFFICE.tel}`}><Phone /><span>{OFFICE.phone}</span></a>
+            <a className="ctl" href={OFFICE.instagram} target="_blank" rel="noopener"><Instagram /><span>{OFFICE.instagramHandle}</span></a>
           </div>
           <div className="ctbox">
             <div className="eyebrow">Horários de atendimento</div>
@@ -79,6 +80,15 @@ export function CtaBand({ title, text }: { title: ReactNode; text: string }) {
         </div>
       </div>
     </section>
+  )
+}
+
+/* Convida quem quiser conhecer as cirurgias realizadas ao longo dos anos a seguir o Dr. no Instagram. */
+export function InstaNote() {
+  return (
+    <p className="mut" style={{ marginTop: 14 }}>
+      Reimplantes e cirurgias reconstrutivas de maior porte, realizadas ao longo dos anos, estão nas histórias do Instagram do Dr. Takaki, <a className="link" href={OFFICE.instagram} target="_blank" rel="noopener">{OFFICE.instagramHandle}</a>.
+    </p>
   )
 }
 

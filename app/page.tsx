@@ -5,7 +5,7 @@ import { Arrow, WhatsApp } from '@/components/Icons'
 import JsonLd from '@/components/JsonLd'
 import Cta from '@/components/Cta'
 import Photo from '@/components/Photo'
-import { ContactSection, MoreLink } from '@/components/Sections'
+import { ContactSection, InstaNote, MoreLink } from '@/components/Sections'
 import { ARTICLES, FOCUS, HOSPITALS, OFFICE, SITE, SITE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
@@ -21,6 +21,7 @@ const ld = {
   url: SITE_URL,
   image: `${SITE_URL}/img/og.jpg`,
   medicalSpecialty: ['Hand surgery', 'Plastic surgery'],
+  sameAs: [OFFICE.instagram],
   identifier: [SITE.crm, ...SITE.rqe.map((r) => `RQE ${r.n} ${r.esp}`)],
   memberOf: { '@type': 'Organization', name: SITE.societyFull, alternateName: SITE.society },
   paymentAccepted: OFFICE.insurance.join(', '),
@@ -105,7 +106,7 @@ export default function Home() {
               <div>
                 <div className="eyebrow">Como podemos ajudar</div>
                 <h2 className="serif" style={{ margin: '14px 0' }}>Lesões e <em>patologias</em></h2>
-                <p className="mut">A formação do Dr. Takaki é em cirurgia da mão e microcirurgia. Por isso a área de atuação é ampla: além de tratar, de forma clínica ou cirúrgica, as doenças da mão, do punho e do antebraço, ele também cuida de problemas dos nervos periféricos, seja qual for a localização.</p>
+                <p className="mut">A formação do Dr. Takaki é em cirurgia da mão e microcirurgia. Por isso a área de atuação é ampla: além de tratar, de forma clínica ou cirúrgica, as doenças da mão, do punho e do antebraço, ele também cuida de problemas dos nervos periféricos, seja qual for a localização. Reimplantes e cirurgias reconstrutivas de maior porte estão no Instagram do Dr. Takaki.</p>
               </div>
               <MoreLink href="/patologias">Ver todas</MoreLink>
             </div>
@@ -152,6 +153,7 @@ export default function Home() {
                 <div><b>1984</b><span>Bolsa do governo japonês<small>Cirurgia plástica reconstrutora, cirurgia da mão e microcirurgia, na Universidade de Tóquio</small></span></div>
                 <div><b>1987</b><span>Retorno a Londrina<small>Início das microcirurgias no Hospital Evangélico</small></span></div>
               </div>
+              <InstaNote />
               <div style={{ marginTop: 28 }}><MoreLink href="/trajetoria">Ler a trajetória completa</MoreLink></div>
             </div>
           </div>

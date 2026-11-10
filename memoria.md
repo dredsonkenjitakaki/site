@@ -24,6 +24,10 @@
 
 - 2026-11-09 · UF e RQE confirmados pelos certificados do CRM-PR enviados pelo Dr.: CRM-PR 7669; Cirurgia da Mão RQE 8847 (24/02/1999) e Cirurgia Plástica RQE 9249 (05/05/1999). Exibidos no hero, rodapé, Trajetória e JSON-LD (`SITE.rqe` em `lib/content.ts`). Sociedade: SBCM segue no site.
 
+- 2026-11-09 · Instagram do Dr. (@dredsonkenjitakaki) adicionado a pedido do Dr., para quem quiser conhecer as cirurgias realizadas ao longo dos anos: `OFFICE.instagram` em `lib/content.ts`, ícone, link no contato e no rodapé, aviso `InstaNote` na home, Trajetória e Microcirurgia, e `sameAs` no JSON-LD. Nenhum texto foi removido: a dúvida da secretaria sobre tirar reimplantes do site segue em aberto.
+
+- 2026-11-10 · Esclarecimento da secretaria sobre "só as cirurgias mais simples no site": a especialidade do Dr. é microcirurgia (reimplantes de mão, pé e qualquer membro, cirurgias reconstrutivas); as patologias do site são o que ele faz de mais simples hoje; os casos grandes ficam nas histórias do Instagram. Portanto **nada sai do site** (corrige a leitura de 09/11 de que reimplantes sairiam; isso nunca foi aplicado). Texto do `InstaNote` agora cita reimplantes e reconstrutivas, e as páginas Home e Patologias dizem que os casos de maior complexidade estão no Instagram.
+
 ## Problemas encontrados
 - **Texto de terceiros no documento.** O artigo "Dedo em gatilho" é idêntico ao de dramarinapisani.com.br, e o documento linka outras páginas dessa mesma médica (túnel do carpo, De Quervain, microcirurgia, tendinite, cisto sinovial, alongamento, traumas). Os demais artigos têm o mesmo estilo e provavelmente têm a mesma origem. **Não foram copiados.** Os textos de patologia e de microcirurgia no site são originais, curtos e conservadores, e precisam ser revisados e aprovados pelo Dr. Takaki.
 - Imagens de mãos e ilustrações podem ser de banco ou de terceiros.

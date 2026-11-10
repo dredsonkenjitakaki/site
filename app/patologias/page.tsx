@@ -27,7 +27,7 @@ export default function Patologias() {
               {FOCUS.map((f) => <li key={f}>{f}</li>)}
             </ul>
             <h2 className="serif" style={{ margin: '56px 0 0' }} data-rv>Entenda cada <em>condição</em></h2>
-            <p className="mut" style={{ maxWidth: '36em', marginTop: 12 }} data-rv>Os textos abaixo explicam, em linguagem simples, o que cada condição significa. Eles não substituem a avaliação médica.</p>
+            <p className="mut" style={{ maxWidth: '36em', marginTop: 12 }} data-rv>Os textos abaixo explicam, em linguagem simples, o que cada condição significa. Eles não substituem a avaliação médica. São as condições mais frequentes no consultório. Os casos de maior complexidade, como reimplantes e cirurgias reconstrutivas, estão no Instagram do Dr. Takaki, @dredsonkenjitakaki.</p>
             <div className="idx" data-rv>
               {ARTICLES.map((a, i) => (
                 <Link key={a.slug} href={`/patologias/${a.slug}`}>

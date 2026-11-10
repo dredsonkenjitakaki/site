@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { NAV, OFFICE, SITE } from '@/lib/content'
-import { Phone, Pin, WhatsApp } from './Icons'
+import { Instagram, Phone, Pin, WhatsApp } from './Icons'
 
 export default function Footer() {
   return (
@@ -26,6 +26,7 @@ export default function Footer() {
             <h4>Contato</h4>
             <a className="ft-l" href={`tel:${OFFICE.tel}`}><Phone /><span>{OFFICE.phone}</span></a>
             <a className="ft-l" href={`https://wa.me/${OFFICE.wa}`} target="_blank" rel="noopener"><WhatsApp /><span>{OFFICE.waLabel}</span></a>
+            <a className="ft-l" href={OFFICE.instagram} target="_blank" rel="noopener"><Instagram /><span>{OFFICE.instagramHandle}</span></a>
           </div>
           <div className="ft-col">
             <h4>Site</h4>
