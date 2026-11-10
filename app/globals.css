@@ -86,7 +86,7 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .hero .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--cobalt),rgba(31,95,212,0) 22%)}
 @media(prefers-reduced-motion:no-preference){
   .js .hero .in .eyebrow,.js .hero .lead,.js .hero .ctas,.js .hero .cred{opacity:0;visibility:hidden}
-  .js .hero h1,.js .hero .ph,.js .hdr,.js .phero .crumb,.js .phero h1,.js .phero .lead{opacity:0;visibility:hidden}
+  .js .hero h1,.js .hdr,.js .phero .crumb,.js .phero h1,.js .phero .lead{opacity:0;visibility:hidden}
   .js [data-rv]{opacity:0;visibility:hidden}
 }
 
@@ -188,7 +188,7 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .ft-brand{display:flex;gap:16px;align-items:flex-start}
 .ft-brand b{display:block;color:#fff;letter-spacing:.1em;text-transform:uppercase;font-weight:700;font-size:.8rem;margin-bottom:6px}
 .ft-brand span{display:block;line-height:1.7}
-.ft-col h4{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--aqua);font-weight:700;margin-bottom:14px}
+.ft-col h3{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--aqua);font-weight:700;margin-bottom:14px}
 .ft-col p{line-height:1.7;margin-bottom:14px}
 .ft-l{display:flex;gap:10px;align-items:center;color:#fff;margin-bottom:10px;transition:color .3s,transform .3s var(--ease)}
 .ft-l:hover{color:var(--aqua);transform:translateX(3px)}

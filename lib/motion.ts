@@ -18,7 +18,7 @@ export async function initMotion(): Promise<() => void> {
 
     if ($('.hero')) {
       const tl = gsap.timeline({ defaults: { ease } })
-      tl.fromTo('.hero .ph', { scale: 1.08, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: 2, ease: 'power2.out' }, 0)
+      tl.fromTo('.hero .ph', { scale: 1.08 }, { scale: 1, duration: 2, ease: 'power2.out' }, 0)
         .fromTo('.hero .in .eyebrow', { autoAlpha: 0, y: 14 }, { autoAlpha: 1, y: 0, duration: 0.8 }, 0.3)
         .set('.hero h1', { autoAlpha: 1 }, 0.4)
         .fromTo('.hero h1 .ln>span', { yPercent: 110 }, { yPercent: 0, duration: 1.1, stagger: 0.12 }, 0.4)

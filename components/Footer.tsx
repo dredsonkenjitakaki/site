@@ -18,18 +18,18 @@ export default function Footer() {
             </div>
           </div>
           <div className="ft-col">
-            <h4>Consultório</h4>
+            <h3>Consultório</h3>
             <p>{OFFICE.street}<br />{OFFICE.area} · {OFFICE.city}-{OFFICE.uf}</p>
             <a className="ft-l" href={OFFICE.map} target="_blank" rel="noopener"><Pin /><span>Como chegar</span></a>
           </div>
           <div className="ft-col">
-            <h4>Contato</h4>
+            <h3>Contato</h3>
             <a className="ft-l" href={`tel:${OFFICE.tel}`}><Phone /><span>{OFFICE.phone}</span></a>
             <a className="ft-l" href={`https://wa.me/${OFFICE.wa}`} target="_blank" rel="noopener"><WhatsApp /><span>{OFFICE.waLabel}</span></a>
             <a className="ft-l" href={OFFICE.instagram} target="_blank" rel="noopener"><Instagram /><span>{OFFICE.instagramHandle}</span></a>
           </div>
           <div className="ft-col">
-            <h4>Site</h4>
+            <h3>Site</h3>
             {NAV.slice(0, 4).map(([t, h]) => (
               <Link key={h} className="ft-l" href={h}><span>{t}</span></Link>
             ))}

@@ -43,6 +43,13 @@ const ld = {
 export default function Home() {
   return (
     <>
+      <link
+        rel="preload"
+        as="image"
+        imageSrcSet="/img/hero-800.webp 800w, /img/hero-1200.webp 1200w, /img/hero-1600.webp 1600w"
+        imageSizes="(max-width: 960px) 560px, 1100px"
+        fetchPriority="high"
+      />
       <JsonLd data={ld} />
       <main id="conteudo">
         <section className="hero" data-first>
@@ -62,7 +69,17 @@ export default function Home() {
             </div></div>
           </div>
           <div className="ph">
-            <Photo k="hero" alt="Dr. Edson Kenji Takaki operando sob o microscópio cirúrgico" priority quality={90} sizes="(max-width: 960px) 100vw, 1200px" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/hero-1200.webp"
+              srcSet="/img/hero-800.webp 800w, /img/hero-1200.webp 1200w, /img/hero-1600.webp 1600w"
+              sizes="(max-width: 960px) 560px, 1100px"
+              width={2506}
+              height={1904}
+              alt="Dr. Edson Kenji Takaki operando sob o microscópio cirúrgico"
+              fetchPriority="high"
+              decoding="async"
+            />
           </div>
         </section>
 
