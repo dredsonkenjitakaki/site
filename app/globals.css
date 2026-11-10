@@ -150,6 +150,14 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 
 /* orientações (cartões) */
 .two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card .link{margin-top:18px;display:inline-flex}
+.dark .card{color:var(--ink)}
+.dark .card .mut{color:var(--steel)}
+.dark .card .link{color:var(--cobalt)}
+.bul{margin:16px 0 0;padding-left:1.2em;display:grid;gap:9px}
+.bul li{list-style:disc;font-size:.95rem}
+.pend{display:inline-block;background:#fff3c4;color:#5c4300;border-radius:6px;padding:2px 9px;font-size:.78rem;font-weight:600;line-height:1.5}
 .card{background:#fff;border:1px solid var(--line);padding:clamp(26px,3vw,42px)}
 .card h3{font:400 1.7rem/1.15 var(--serif);margin-bottom:14px}
 .card h3+p,.card .mut{font-size:.92rem}
@@ -242,7 +250,7 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
   .hero .ctas .btn-line{display:none}
   .facts .wrap{grid-template-columns:1fr 1fr}.facts .it{padding:24px 16px}.facts .it:nth-child(3){border-left:0;padding-left:0}
   .facts .it:nth-child(n+3){border-top:1px solid var(--line)}
-  .split,.two,.ctgrid,.press,.art{grid-template-columns:1fr}
+  .split,.two,.three,.ctgrid,.press,.art{grid-template-columns:1fr}
   .split.rev>:first-child{order:0}
   .aside{position:static}
   .gal{grid-template-columns:1fr 1fr}

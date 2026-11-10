@@ -28,6 +28,8 @@
 
 - 2026-11-10 · Esclarecimento da secretaria sobre "só as cirurgias mais simples no site": a especialidade do Dr. é microcirurgia (reimplantes de mão, pé e qualquer membro, cirurgias reconstrutivas); as patologias do site são o que ele faz de mais simples hoje; os casos grandes ficam nas histórias do Instagram. Portanto **nada sai do site** (corrige a leitura de 09/11 de que reimplantes sairiam; isso nunca foi aplicado). Texto do `InstaNote` agora cita reimplantes e reconstrutivas, e as páginas Home e Patologias dizem que os casos de maior complexidade estão no Instagram.
 
+- 2026-11-10 · Ajuste de posicionamento (pedido do cliente): home ganha a seção "Microcirurgia: o que é possível" logo após a faixa de fatos (3 cards: reimplantes de membros, cirurgia reconstrutiva microcirúrgica, traumas complexos, todos para /microcirurgia; dados em `MICRO`, `lib/content.ts`); hero com eyebrow "Cirurgia da mão · Microcirurgia · Reimplantes" e subtítulo citando reimplantes e reconstruções (H1 mantido). /microcirurgia expandida: "O que é um reimplante", "Cirurgia reconstrutiva" (substitui "Quando é usada"), "Quando procurar um microcirurgião" e "Em caso de amputação" (primeiros socorros, SAMU 192, CTA de WhatsApp). **Substitui a decisão de 10/11 de que o site detalhava só as condições comuns e os casos grandes ficavam no Instagram**; o link do Instagram continua. Decisões do cliente nesta rodada: "40 anos" e "SBCM" seguem como confirmados; "poucos centros no Brasil" saiu da página Microcirurgia (título "Por que há poucos centros" virou "Uma técnica que exige formação longa" e a frase sobre oferta limitada foi removida). Patologias, CRM e RQE não foram alterados. Marcas `[PENDENTE: ...]` visíveis no site (componente `Pend`, classe `.pend`): "atendimento particular, fora do convênio" (confirmar com a Luciane), telefone de urgência (Luciane) e primeiros socorros (aprovação do Dr.). Todo o texto novo precisa de aprovação do Dr. antes de ir ao ar.
+
 ## Problemas encontrados
 - **Texto de terceiros no documento.** O artigo "Dedo em gatilho" é idêntico ao de dramarinapisani.com.br, e o documento linka outras páginas dessa mesma médica (túnel do carpo, De Quervain, microcirurgia, tendinite, cisto sinovial, alongamento, traumas). Os demais artigos têm o mesmo estilo e provavelmente têm a mesma origem. **Não foram copiados.** Os textos de patologia e de microcirurgia no site são originais, curtos e conservadores, e precisam ser revisados e aprovados pelo Dr. Takaki.
 - Imagens de mãos e ilustrações podem ser de banco ou de terceiros.
@@ -36,6 +38,7 @@
 - Caso de paciente identificado (reimplante de ambas as mãos) e dados pessoais/religiosos do Dr. não foram usados.
 
 ## Pendências
+- **Remover as marcas [PENDENTE] antes de publicar:** particular/fora do convênio e telefone de urgência (Luciane); primeiros socorros em amputação (Dr. Takaki). Procurar por `Pend` no código.
 - Confirmar com o Dr.: textos de todas as páginas, legenda "Lions: honrarias". ("35 anos" resolvido: 40 anos.)
 - Confirmar prazos que ainda faltam: túnel cubital, sindactilia, dedo em martelo; liberação para carregar peso. Orientações diz retorno do curativo "cerca de uma semana" e os pontos saem em 2 semanas: conferir se são retornos diferentes.
 - Fotos prometidas no documento: Dr. com lupa, cirurgias, prédio/estacionamento/recepção, sala com o Dr., Dr. com a mão.

@@ -14,6 +14,8 @@ Somente português (BR).
 ## Estrutura 🟡
 - `/` Home: hero, fatos, atendimento humanizado, a mão, patologias, microcirurgia, trajetória, orientações, consultório, contato.
 - `/patologias` e `/patologias/[slug]`: 9 artigos (túnel do carpo, dedo em gatilho, De Quervain, cisto sinovial, dor na palma, túnel cubital, dor nas mãos na gravidez, sindactilia, dedo em martelo). Uma URL por condição, para SEO.
+- Home: logo após a faixa de fatos, seção "Microcirurgia: o que é possível" (reimplantes, cirurgia reconstrutiva, traumas complexos), com cirurgia da mão ainda em primeiro lugar no hero.
+- `/microcirurgia`: o que é, reimplante, cirurgia reconstrutiva, quando procurar, em caso de amputação (primeiros socorros e urgência `[PENDENTE]`), equipamentos e formação.
 - `/microcirurgia`, `/trajetoria` (inclui imprensa e vídeos), `/orientacoes` (pré e pós-operatório).
 
 ## Contato ✅ (do documento do cliente)
@@ -21,7 +23,7 @@ Somente português (BR).
 - Telefone (43) 3324-6159. WhatsApp (43) 99150-6159 (secretária Luciane).
 - Hospitais: Evangélico e Unimed.
 - Horários: seg e qua 8h às 18h · ter e qui 14h às 18h · sex 8h às 12h. Convênios: Unimed, Hospitalar (rede aberta) e Particular. (09/11/2026)
-- Instagram do Dr.: @dredsonkenjitakaki (https://www.instagram.com/dredsonkenjitakaki/), onde ficam os casos de maior porte (reimplantes e cirurgias reconstrutivas), contados nas histórias. O site detalha as condições mais frequentes; nada de reimplante é removido. Facebook: sem até o cliente informar `[CONFIRMAR]`.
+- Instagram do Dr.: @dredsonkenjitakaki (https://www.instagram.com/dredsonkenjitakaki/), onde ficam os casos de maior porte (reimplantes e cirurgias reconstrutivas), contados nas histórias. Desde 10/11/2026 a home e /microcirurgia também apresentam reimplantes e reconstruções, e o Instagram segue como vitrine dos casos. Facebook: sem até o cliente informar `[CONFIRMAR]`.
 
 ## CTA ✅
 Botão "Agendar consulta" abre o WhatsApp do consultório (`wa.me`, mensagem pré-preenchida). Header, hero, páginas internas, contato e barra fixa no celular. Sem formulário.

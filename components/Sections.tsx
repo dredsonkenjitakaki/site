@@ -92,6 +92,11 @@ export function InstaNote() {
   )
 }
 
+/* Marca visível de informação pendente de confirmação. Procure por "pend" antes de publicar. */
+export const Pend = ({ children }: { children: ReactNode }) => (
+  <span className="pend">[PENDENTE: {children}]</span>
+)
+
 export const MoreLink = ({ href, children }: { href: string; children: ReactNode }) => (
   <Link className="link" href={href}>{children} <Arrow /></Link>
 )

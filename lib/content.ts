@@ -61,6 +61,13 @@ export const HOSPITALS = [
   { name: 'Unimed', logo: 'logo-unimed' as ImgKey },
 ]
 
+/* Home: seção "Microcirurgia: o que é possível". Textos para aprovação do Dr. */
+export const MICRO = [
+  { title: 'Reimplantes de membros', text: 'Em dedos, mão, braço e pé, a técnica permite reconectar vasos, nervos e tendões da parte que foi separada. O objetivo é restabelecer o máximo de função possível, e o resultado varia em cada caso.' },
+  { title: 'Cirurgia reconstrutiva microcirúrgica', text: 'Quando faltam nervo, vasos ou pele, a técnica permite reconstruir a região, às vezes com tecido de outra parte do corpo e os vasos dele. A indicação depende de cada caso.' },
+  { title: 'Traumas complexos', text: 'Esmagamentos e amputações atingem várias estruturas de uma vez. A técnica permite tratar vasos, nervos e tendões sob ampliação. O que é possível depende de cada caso, e a avaliação precisa ser rápida.' },
+]
+
 export const FOCUS = [
   'Cirurgia da mão',
   'Traumas da mão e do punho',

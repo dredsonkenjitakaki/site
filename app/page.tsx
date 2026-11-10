@@ -5,8 +5,8 @@ import { Arrow, WhatsApp } from '@/components/Icons'
 import JsonLd from '@/components/JsonLd'
 import Cta from '@/components/Cta'
 import Photo from '@/components/Photo'
-import { ContactSection, InstaNote, MoreLink } from '@/components/Sections'
-import { ARTICLES, FOCUS, HOSPITALS, OFFICE, SITE, SITE_URL } from '@/lib/content'
+import { ContactSection, InstaNote, MoreLink, Pend } from '@/components/Sections'
+import { ARTICLES, FOCUS, HOSPITALS, MICRO, OFFICE, SITE, SITE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Dr. Edson Kenji Takaki | Cirurgia da mão e microcirurgia em Londrina',
@@ -48,12 +48,12 @@ export default function Home() {
         <section className="hero" data-first>
           <div className="in">
             <div className="glass"><div className="glass-in">
-            <div className="eyebrow">Microcirurgia · Cirurgia da mão · Plástica reconstrutora</div>
+            <div className="eyebrow">Cirurgia da mão · Microcirurgia · Reimplantes</div>
             <h1 className="serif">
               <span className="ln"><span>Cirurgia da mão</span></span>
               <span className="ln"><span><em>com escuta e cuidado.</em></span></span>
             </h1>
-            <p className="lead">Microcirurgião especialista em cirurgia da mão. Tratamento especializado e atendimento humanizado para conduzir o seu caso.</p>
+            <p className="lead">Microcirurgião especialista em cirurgia da mão, com formação também em reimplantes e reconstruções. Atendimento humanizado para conduzir o seu caso.</p>
             <div className="ctas">
               <Cta className="btn btn-light"><WhatsApp /> Agendar consulta</Cta>
               <Link className="btn btn-line" href="/trajetoria">Conhecer a trajetória <Arrow /></Link>
@@ -72,6 +72,30 @@ export default function Home() {
             <div className="it"><b>3 anos</b><small>De especialização em Tóquio</small></div>
             <div className="it"><b>{SITE.society}</b><small>Membro da {SITE.societyFull}</small></div>
             <div className="it"><b>{SITE.crm}</b><small>Registro profissional</small></div>
+          </div>
+        </section>
+
+        <section className="sec frost" id="microcirurgia-possivel">
+          <div className="wrap">
+            <div className="sechd" data-rv>
+              <div>
+                <div className="eyebrow">Microcirurgia</div>
+                <h2 className="serif" style={{ margin: '14px 0' }}>Microcirurgia: <em>o que é possível</em></h2>
+                <p className="mut">Com microscópio e instrumentos muito finos, a técnica permite operar vasos e nervos pequenos. O que se consegue depende de cada caso, e é na avaliação com o Dr. Takaki que se define o caminho.</p>
+              </div>
+              <MoreLink href="/microcirurgia">Entender a microcirurgia</MoreLink>
+            </div>
+            <div className="three" style={{ marginTop: 36 }}>
+              {MICRO.map((m) => (
+                <div className="card" key={m.title} data-rv>
+                  <h3>{m.title}</h3>
+                  <p className="mut">{m.text}</p>
+                  <MoreLink href="/microcirurgia">Saiba mais</MoreLink>
+                </div>
+              ))}
+            </div>
+            <p className="mut" style={{ marginTop: 28, maxWidth: '44em' }} data-rv>Reimplantes e reconstruções são feitos em atendimento particular, fora do convênio. <Pend>confirmar com a Luciane</Pend></p>
+            <div data-rv><InstaNote /></div>
           </div>
         </section>
 
