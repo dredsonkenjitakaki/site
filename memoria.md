@@ -34,6 +34,8 @@
 
 - 2026-11-10 · Removida a linha "Telefone de urgência do consultório: [PENDENTE]" da seção "Em caso de amputação" (/microcirurgia), a pedido do cliente. Ficam o SAMU (192) e o botão de WhatsApp.
 
+- 2026-11-10 · Home tinha duas seções de microcirurgia. Removida a antiga (escura, "Quando a vista não alcança", com a foto `microscopio-visao`), por decisão do cliente. Fica só a nova "Microcirurgia: o que é possível", sem foto. A foto continua usada na página /microcirurgia.
+
 ## Problemas encontrados
 - **Texto de terceiros no documento.** O artigo "Dedo em gatilho" é idêntico ao de dramarinapisani.com.br, e o documento linka outras páginas dessa mesma médica (túnel do carpo, De Quervain, microcirurgia, tendinite, cisto sinovial, alongamento, traumas). Os demais artigos têm o mesmo estilo e provavelmente têm a mesma origem. **Não foram copiados.** Os textos de patologia e de microcirurgia no site são originais, curtos e conservadores, e precisam ser revisados e aprovados pelo Dr. Takaki.
 - Imagens de mãos e ilustrações podem ser de banco ou de terceiros.

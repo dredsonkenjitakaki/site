@@ -148,20 +148,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="sec dark" id="microcirurgia">
-          <div className="wrap split rev">
-            <div data-rv>
-              <div className="eyebrow">Microcirurgia</div>
-              <h2 className="serif">Quando a vista <em>não alcança.</em></h2>
-              <p className="mut">Com lupas e microscópios cirúrgicos, o campo operado é ampliado, e se torna possível trabalhar em vasos e nervos muito pequenos. A técnica é usada em reconstruções após acidentes, retirada de tumores ou malformações congênitas.</p>
-              <div style={{ marginTop: 28 }}><MoreLink href="/microcirurgia">Entender a microcirurgia</MoreLink></div>
-            </div>
-            <figure className="fig r43" data-rv>
-              <Photo k="microscopio-visao" alt="Imagem ampliada de pinças sob o microscópio cirúrgico" sizes="(max-width: 960px) 100vw, 560px" par style={{ height: '112%' }} />
-            </figure>
-          </div>
-        </section>
-
         <section className="sec" id="trajetoria">
           <div className="wrap split">
             <figure className="fig r45" data-rv>
