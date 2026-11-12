@@ -40,8 +40,8 @@ export default function Trajetoria() {
             <div data-rv>
               <div className="eyebrow">Tóquio</div>
               <h2 className="serif">Três anos <em>no Japão.</em></h2>
-              <p>Em 1984, ele ganhou uma bolsa do governo japonês para estudar na Universidade de Tóquio. Ali permaneceu por três anos, especializando-se em cirurgia plástica reconstrutora, cirurgia da mão e microcirurgia.</p>
-              <p style={{ marginTop: 14 }}>Recebeu convites para ficar no Japão, mas voltou por um compromisso com o Hospital Evangélico, que o acolheu desde a época de estudante.</p>
+              <p>Em 1984, ele concorreu e ganhou uma bolsa do governo japonês para estudar na Universidade de Tóquio. Ali permaneceu por três anos, especializando-se em cirurgia plástica reconstrutora, cirurgia da mão e microcirurgia.</p>
+              <p style={{ marginTop: 14 }}>Recebeu convites devido aos procedimentos de transplante de cabeça de ratos e foi convidado a seguir carreira na Universidade de Tóquio, mas voltou por um compromisso com o Hospital Evangélico, que o acolheu desde a época de estudante.</p>
               <div className="tl">
                 <div><b>1984</b><span>Bolsa do governo japonês<small>Universidade de Tóquio</small></span></div>
                 <div><b>1987</b><span>Retorno a Londrina<small>Primeiras microcirurgias realizadas no Hospital Evangélico</small></span></div>

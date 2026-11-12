@@ -121,10 +121,19 @@ export default function Microcirurgia() {
             <div className="eyebrow" data-rv>Equipamento</div>
             <h2 className="serif" style={{ margin: '14px 0 12px' }} data-rv>Microscópio <em>cirúrgico</em></h2>
             <p className="mut" style={{ maxWidth: '38em' }} data-rv>As cirurgias são feitas sob microscópio, que aumenta a imagem em cerca de 80 vezes.</p>
-            <figure style={{ marginTop: 36, maxWidth: 560 }} data-rv>
-              <div className="fig r43"><Photo k="microsutura" alt="Sutura sob microscópio em cirurgia reconstrutiva" sizes="(max-width: 960px) 100vw, 560px" /></div>
-              <figcaption className="cap">Exemplo de microcirurgia reconstrutiva. Imagem cirúrgica.</figcaption>
-            </figure>
+            <div className="two" style={{ marginTop: 36 }}>
+              <figure data-rv>
+                <div className="fig r43">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/img/hero-1200.webp" srcSet="/img/hero-800.webp 800w, /img/hero-1200.webp 1200w" sizes="(max-width: 960px) 100vw, 560px" width={2506} height={1904} alt="Dr. Edson Kenji Takaki operando sob o microscópio cirúrgico" loading="lazy" decoding="async" />
+                </div>
+                <figcaption className="cap">Dr. Takaki operando sob o microscópio cirúrgico.</figcaption>
+              </figure>
+              <figure data-rv>
+                <div className="fig r43"><Photo k="microsutura" alt="Sutura sob microscópio em cirurgia reconstrutiva" sizes="(max-width: 960px) 100vw, 560px" /></div>
+                <figcaption className="cap">Exemplo de microcirurgia reconstrutiva. Imagem cirúrgica.</figcaption>
+              </figure>
+            </div>
           </div>
         </section>
 
