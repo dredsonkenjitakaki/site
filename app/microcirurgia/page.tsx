@@ -3,11 +3,11 @@ import Footer from '@/components/Footer'
 import Photo from '@/components/Photo'
 import Cta from '@/components/Cta'
 import { WhatsApp } from '@/components/Icons'
-import { ContactSection, InstaNote, PageHero, Pend } from '@/components/Sections'
+import { ContactSection, InstaNote, PageHero } from '@/components/Sections'
 
 export const metadata: Metadata = {
   title: 'Microcirurgia e reimplantes | Dr. Edson Kenji Takaki, Londrina',
-  description: 'Reimplantes, cirurgia reconstrutiva e traumas complexos: entenda como funciona a microcirurgia, feita com lupas e microscópio cirúrgico, e quando procurar um microcirurgião. Dr. Edson Kenji Takaki, Londrina.',
+  description: 'Reimplantes, cirurgia reconstrutiva e traumas complexos: entenda como funciona a microcirurgia, feita sob microscópio cirúrgico, e quando procurar um microcirurgião. Dr. Edson Kenji Takaki, Londrina.',
   alternates: { canonical: '/microcirurgia' },
 }
 
@@ -26,11 +26,11 @@ export default function Microcirurgia() {
             <div data-rv>
               <div className="eyebrow">O que é</div>
               <h2 className="serif">Cirurgia sob <em>ampliação.</em></h2>
-              <p>A microcirurgia reconstrutiva surgiu na década de 1970. Quando a operação exige uma imagem maior da região, o cirurgião usa lupas ou um microscópio cirúrgico, e passa a trabalhar em estruturas que o olho nu não alcança.</p>
+              <p>A microcirurgia reconstrutiva surgiu na década de 1970. Quando a operação exige uma imagem maior da região, o cirurgião opera sob o microscópio cirúrgico e passa a trabalhar em estruturas que o olho nu não alcança.</p>
               <p>Vasos e nervos pequenos são suturados com fios mais finos que um fio de cabelo. É esse nível de detalhe que torna possível reconstruir partes do corpo danificadas por acidentes, pela retirada de tumores ou por defeitos congênitos.</p>
             </div>
             <figure className="fig r45" data-rv>
-              <Photo k="cirurgiao-microscopio" alt="Dr. Edson Kenji Takaki no centro cirúrgico, com lupa e microscópio" sizes="(max-width: 960px) 100vw, 480px" par style={{ height: '112%', objectPosition: '50% 30%' }} />
+              <Photo k="cirurgiao-microscopio" alt="Dr. Edson Kenji Takaki no centro cirúrgico, ao lado do microscópio" sizes="(max-width: 960px) 100vw, 480px" par style={{ height: '112%', objectPosition: '50% 30%' }} />
             </figure>
           </div>
         </section>
@@ -106,13 +106,11 @@ export default function Microcirurgia() {
             </div>
             <div className="card" data-rv>
               <h3>Primeiros socorros</h3>
-              <p style={{ marginBottom: 6 }}><Pend>aprovação do Dr. Takaki</Pend></p>
               <ul className="bul">
-                <li>Pressione o local do sangramento com um pano limpo.</li>
-                <li>Envolva a parte amputada em gaze ou pano limpo e úmido.</li>
-                <li>Coloque a parte embrulhada em um saco plástico fechado.</li>
-                <li>Ponha o saco em um recipiente com gelo. A parte não deve encostar direto no gelo.</li>
-                <li>Não limpe com produtos nem tente recolocar a parte no lugar.</li>
+                <li>Não dê comida nem água ao paciente, porque ele provavelmente será submetido a anestesia geral.</li>
+                <li>Não faça garrote. Comprima o local com um pano limpo.</li>
+                <li>Coloque a parte amputada, do jeito que foi encontrada, em um saco plástico bem fechado e depois em um recipiente com gelo (isopor).</li>
+                <li>Chame o SAMU.</li>
               </ul>
             </div>
           </div>
@@ -120,24 +118,10 @@ export default function Microcirurgia() {
 
         <section className="sec">
           <div className="wrap">
-            <div className="eyebrow" data-rv>Equipamentos</div>
-            <h2 className="serif" style={{ margin: '14px 0 12px' }} data-rv>Lupa cirúrgica e <em>microscópio</em></h2>
-            <p className="mut" style={{ maxWidth: '38em' }} data-rv>Dois tipos de equipamento podem ser usados para ampliar a visão, conforme a cirurgia. O microscópio chega a aumentar a imagem em cerca de 20 vezes.</p>
-            <div className="gal" style={{ marginTop: 36 }}>
-              <figure data-rv>
-                <div className="fig"><Photo k="hero" alt="Dr. Takaki operando com lupa cirúrgica" sizes="(max-width: 960px) 100vw, 380px" /></div>
-                <figcaption className="cap">Lupa cirúrgica</figcaption>
-              </figure>
-              <figure data-rv>
-                <div className="fig"><Photo k="centro-cirurgico" alt="Centro cirúrgico com microscópio cirúrgico" sizes="(max-width: 960px) 100vw, 380px" /></div>
-                <figcaption className="cap">Microscópio cirúrgico no centro cirúrgico</figcaption>
-              </figure>
-              <figure data-rv>
-                <div className="fig"><Photo k="microscopio-visao" alt="Pinças vistas sob ampliação do microscópio" sizes="(max-width: 960px) 100vw, 380px" /></div>
-                <figcaption className="cap">Visão ampliada</figcaption>
-              </figure>
-            </div>
-            <figure style={{ marginTop: 28, maxWidth: 560 }} data-rv>
+            <div className="eyebrow" data-rv>Equipamento</div>
+            <h2 className="serif" style={{ margin: '14px 0 12px' }} data-rv>Microscópio <em>cirúrgico</em></h2>
+            <p className="mut" style={{ maxWidth: '38em' }} data-rv>As cirurgias são feitas sob microscópio, que aumenta a imagem em cerca de 80 vezes.</p>
+            <figure style={{ marginTop: 36, maxWidth: 560 }} data-rv>
               <div className="fig r43"><Photo k="microsutura" alt="Sutura sob microscópio em cirurgia reconstrutiva" sizes="(max-width: 960px) 100vw, 560px" /></div>
               <figcaption className="cap">Exemplo de microcirurgia reconstrutiva. Imagem cirúrgica.</figcaption>
             </figure>
@@ -152,7 +136,7 @@ export default function Microcirurgia() {
             </div>
             <div data-rv>
               <p>A microcirurgia tem uma curva de aprendizado longa. A formação do especialista leva vários anos e exige muita experiência cirúrgica.</p>
-              <p style={{ marginTop: 14 }}>A operação acontece em outra escala de magnificação, e isso pede coordenação entre o que se vê no microscópio e o trabalho das mãos com instrumentos e fios muito pequenos. Também exige paciência, e por isso o procedimento costuma ser mais demorado.</p>
+              <p style={{ marginTop: 14 }}>Sob o microscópio a escala de trabalho é outra: o que se vê e o que as mãos fazem, com instrumentos e fios muito pequenos, precisam andar juntos. A cirurgia pede paciência e muita concentração, e por isso costuma ser mais demorada.</p>
             </div>
           </div>
         </section>

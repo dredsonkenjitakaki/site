@@ -35,6 +35,7 @@
 - 2026-11-10 · Removida a linha "Telefone de urgência do consultório: [PENDENTE]" da seção "Em caso de amputação" (/microcirurgia), a pedido do cliente. Ficam o SAMU (192) e o botão de WhatsApp.
 
 - 2026-11-10 · Home tinha duas seções de microcirurgia. Removida a antiga (escura, "Quando a vista não alcança", com a foto `microscopio-visao`), por decisão do cliente. Fica só a nova "Microcirurgia: o que é possível", sem foto. A foto continua usada na página /microcirurgia.
+- 2026-11-12 · /microcirurgia, a pedido do Dr.: o Dr. não usa lupa, só microscópio, então saíram todas as menções a lupa; o microscópio aumenta a imagem em cerca de 80 vezes (antes dizia 20). A galeria de equipamentos perdeu as 3 fotos (lupa, "Microscópio cirúrgico no centro cirúrgico" e "Visão ampliada") e ficou só a foto de microssutura. Formação: o Dr. pediu incluir paciência e muita concentração. Primeiros socorros reescrito com a lista que o Dr. enviou (sem comida/água por causa da anestesia geral, sem garrote, parte amputada em saco plástico e depois em isopor com gelo, chamar o SAMU) e removida a marca [PENDENTE].
 
 ## Problemas encontrados
 - **Texto de terceiros no documento.** O artigo "Dedo em gatilho" é idêntico ao de dramarinapisani.com.br, e o documento linka outras páginas dessa mesma médica (túnel do carpo, De Quervain, microcirurgia, tendinite, cisto sinovial, alongamento, traumas). Os demais artigos têm o mesmo estilo e provavelmente têm a mesma origem. **Não foram copiados.** Os textos de patologia e de microcirurgia no site são originais, curtos e conservadores, e precisam ser revisados e aprovados pelo Dr. Takaki.
@@ -44,7 +45,7 @@
 - Caso de paciente identificado (reimplante de ambas as mãos) e dados pessoais/religiosos do Dr. não foram usados.
 
 ## Pendências
-- **Remover as marcas [PENDENTE] antes de publicar:** primeiros socorros em amputação (Dr. Takaki). Procurar por `Pend` no código.
+- Marcas [PENDENTE]: nenhuma restante em /microcirurgia (primeiros socorros agora vem do Dr.). O componente `Pend` continua disponível em Sections.tsx.
 - Confirmar com o Dr.: textos de todas as páginas, legenda "Lions: honrarias". ("35 anos" resolvido: 40 anos.)
 - Confirmar prazos que ainda faltam: túnel cubital, sindactilia, dedo em martelo; liberação para carregar peso. Orientações diz retorno do curativo "cerca de uma semana" e os pontos saem em 2 semanas: conferir se são retornos diferentes.
 - Fotos prometidas no documento: Dr. com lupa, cirurgias, prédio/estacionamento/recepção, sala com o Dr., Dr. com a mão.

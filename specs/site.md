@@ -15,7 +15,7 @@ Somente português (BR).
 - `/` Home: hero, fatos, atendimento humanizado, a mão, patologias, microcirurgia, trajetória, orientações, consultório, contato.
 - `/patologias` e `/patologias/[slug]`: 9 artigos (túnel do carpo, dedo em gatilho, De Quervain, cisto sinovial, dor na palma, túnel cubital, dor nas mãos na gravidez, sindactilia, dedo em martelo). Uma URL por condição, para SEO.
 - Home: logo após a faixa de fatos, seção "Microcirurgia: o que é possível" (reimplantes, cirurgia reconstrutiva, traumas complexos), com cirurgia da mão ainda em primeiro lugar no hero.
-- `/microcirurgia`: o que é, reimplante, cirurgia reconstrutiva, quando procurar, em caso de amputação (primeiros socorros e urgência `[PENDENTE]`), equipamentos e formação.
+- `/microcirurgia`: o que é, reimplante, cirurgia reconstrutiva, quando procurar, em caso de amputação (primeiros socorros conforme o Dr.), equipamento (só microscópio, aumento de cerca de 80 vezes) e formação.
 - `/microcirurgia`, `/trajetoria` (inclui imprensa e vídeos), `/orientacoes` (pré e pós-operatório).
 
 ## Contato ✅ (do documento do cliente)
