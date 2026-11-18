@@ -217,8 +217,9 @@ export default function Home() {
               <div className="hosp">
                 {HOSPITALS.map((h) => (
                   <span key={h.name}>
-                    <Photo k={h.logo} alt="" sizes="26px" />
-                    {h.name}
+                    {'wide' in h && h.wide
+                      ? <Photo k={h.logo} alt={h.name} className="wide" sizes="80px" />
+                      : <><Photo k={h.logo} alt="" sizes="26px" />{h.name}</>}
                   </span>
                 ))}
               </div>

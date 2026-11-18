@@ -147,6 +147,7 @@ body.sheet-open .sheet-ov{opacity:1;visibility:visible;pointer-events:auto}
 .hosp{display:flex;gap:22px;flex-wrap:wrap;margin-top:22px}
 .hosp span{display:inline-flex;gap:10px;align-items:center;padding:10px 16px;border:1px solid var(--line);background:#fff;font-size:.86rem;font-weight:600}
 .hosp img{width:26px;height:26px;border-radius:50%}
+.hosp img.wide{width:auto;height:34px;border-radius:5px}
 
 /* orientações (cartões) */
 .two{display:grid;grid-template-columns:1fr 1fr;gap:20px}

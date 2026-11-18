@@ -57,8 +57,8 @@ export const NAV = [
 ] as const
 
 export const HOSPITALS = [
-  { name: 'Hospital Evangélico', logo: 'logo-evangelico' as ImgKey },
-  { name: 'Unimed', logo: 'logo-unimed' as ImgKey },
+  { name: 'Hospital Evangélico', logo: 'logo-evangelico' as ImgKey, wide: true },
+  { name: 'Unimed', logo: 'logo-unimed' as ImgKey, wide: true },
 ]
 
 /* Home: seção "Microcirurgia: o que é possível". Textos para aprovação do Dr. */
