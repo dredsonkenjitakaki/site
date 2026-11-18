@@ -14,7 +14,7 @@ export const IMG = {
   'quervain': { src: '/img/quervain.webp', w: 1200, h: 800 },
   'tunel-cubital': { src: '/img/tunel-cubital.webp', w: 1200, h: 545 },
   'dedo-em-martelo': { src: '/img/dedo-em-martelo.webp', w: 1000, h: 600 },
-  'logo-evangelico': { src: '/img/logo-evangelico.webp', w: 252, h: 69 },
-  'logo-unimed': { src: '/img/logo-unimed.webp', w: 353, h: 120 },
+  'logo-evangelico': { src: '/img/logo-evangelico-2.webp', w: 252, h: 69 },
+  'logo-unimed': { src: '/img/logo-unimed-2.webp', w: 353, h: 120 },
 } as const
 export type ImgKey = keyof typeof IMG
